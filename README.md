@@ -5,4 +5,4 @@
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-Some of the works that I have done, or the resources/tools that I used during my undergraduate studies in NUS.
+Some of the works that I have done, and the resources/tools that I used during my undergraduate studies in NUS.
