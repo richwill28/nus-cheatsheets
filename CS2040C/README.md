@@ -7,10 +7,10 @@ data structures and algorithms. Topics included in this module are linked list,
 searching and sorting algorithms, abstract data type, trees, heap, union-find, 
 hash table, graphs, minimum spanning trees, convex hull, etc.
 
-CS2040C is one of the most useful programming module in NUS. It was conducted 
-on [Coursemology](https://coursemology.org/). The lecture videos were recorded 
-and uploaded to [YouTube](https://www.youtube.com/). Please feel free to 
-contact me if you wish to access the videos.
+CS2040C is one of the most useful programming module in NUS. This module was 
+conducted on [Coursemology](https://coursemology.org/). The lecture videos were 
+recorded and uploaded to [YouTube](https://www.youtube.com/). Please feel free 
+to contact me if you wish to access the videos.
 
 This folder contains all the assignments that I have done, but they are by no 
 means the "model answers". I have also included two cheatsheets (credit to 
