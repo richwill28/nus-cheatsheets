@@ -1,0 +1,16 @@
+1.000: Customer 0 arrives
+1.000: Customer 0 service begin (by Counter 0)
+1.200: Customer 1 arrives
+1.200: Customer 1 service begin (by Counter 1)
+1.400: Customer 2 arrives
+1.400: Customer 2 departed
+1.600: Customer 3 arrives
+1.600: Customer 3 departed
+2.000: Customer 0 service done (by Counter 0)
+2.000: Customer 0 departed
+2.100: Customer 4 arrives
+2.100: Customer 4 service begin (by Counter 0)
+2.200: Customer 1 service done (by Counter 1)
+2.200: Customer 1 departed
+3.100: Customer 4 service done (by Counter 0)
+3.100: Customer 4 departed
