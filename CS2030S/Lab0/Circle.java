@@ -1,7 +1,7 @@
 /**
  * CS2030S Lab 0: Circle.java
  * Semester 2, 2020/21
- * <p>
+ *
  * The Circle class represents a circle with a center
  * and a radius.
  *

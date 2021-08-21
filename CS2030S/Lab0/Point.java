@@ -3,7 +3,7 @@ import java.lang.Math;
 /**
  * CS2030S Lab 0: Point.java
  * Semester 2, 2020/21
- * <p>
+ *
  * The Point class encapsulates a point on a 2D plane.
  *
  * @author richwill28

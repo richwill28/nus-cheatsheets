@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * CS2030S Lab 0: Estimating Pi with Monte Carlo
  * Semester 2, 2020/21
- * <p>
+ *
  * This program takes in two command line arguments: the
  * number of points and a random seed.  It runs the
  * Monte Carlo simulation with the given argument and print
