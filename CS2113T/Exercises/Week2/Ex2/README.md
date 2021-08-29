@@ -26,6 +26,7 @@ Words given: eve, eve
 They are the same: true
 ```
 
-💡 Use the following technique to compare two Strings(i.e., don't use ==). Reason: to be covered in a later topic.
+💡 Use the following technique to compare two `Strings` (i.e., don't use `==`). 
+Reason: to be covered in a later topic.
 
 Website: https://nus-cs2113-ay2122s1.github.io/website/schedule/week2/topics.html#key-exercise-compare-names
