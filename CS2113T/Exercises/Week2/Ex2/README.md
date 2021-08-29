@@ -36,34 +36,34 @@ isSame = x.equals("foo") // true
 ```
 
 <details>
-    <summary>Hint</summary>
+  <summary>Hint</summary>
 
-    <ul>
-        <li>
-            The two command line arguments can be accessed inside the `main` 
-            method using `args[0]` and `args[1]`.
-        </li>
-        <li>
-            When using multiple operators in the same expression, you might 
-            need to use parentheses to specify operator precedence. e.g., 
-            `"foo" + x == y` vs `"foo" + (x == y)`
-        </li>
-    </ul>
+  <ul>
+    <li>
+      The two command line arguments can be accessed inside the `main` method 
+      using `args[0]` and `args[1]`.
+    </li>
+    <li>
+      When using multiple operators in the same expression, you might need to 
+      use parentheses to specify operator precedence. e.g., `"foo" + x == y` vs 
+      `"foo" + (x == y)`
+    </li>
+  </ul>
+</details>
 
-    <details>
-        <summary>partial solution</summary>
-
-        ```java
-            class Main {
-                public static void main(String[] args) {
-                    String first = args[0];
-                    String second = args[1];
-                    System.out.println("Words given: " + first + ", " + second);
-                    // ...
-                }
-            }
-        ```
-    </details>
+<details>
+  <summary>partial solution</summary>
+  
+  ```java
+  class Main {
+      public static void main(String[] args) {
+          String first = args[0];
+          String second = args[1];
+          System.out.println("Words given: " + first + ", " + second);
+          // ...
+      }
+  }
+  ```
 </details>
 
 Website: https://nus-cs2113-ay2122s1.github.io/website/schedule/week2/topics.html#key-exercise-compare-names
