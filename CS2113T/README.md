@@ -2,7 +2,11 @@
 
 **AY21/22 SEM 1, taught by Prof. Akshay Narayan.**
 
-This module introduces students to the systematic and rigorous development of software systems. It covers requirements, design, implementation, quality assurance, and project management aspects of small-to-medium size multi-person software projects. The module covers Object Oriented Programming Paradigm with Java.
+This module introduces students to the systematic and rigorous development of
+software systems. It covers requirements, design, implementation, quality
+assurance, and project management aspects of small-to-medium size multi-person
+software projects. The module also covers Object Oriented Programming Paradigm
+with Java.
 
 Unfortunately, CS2113T does not cover as much depth as CS2030S in terms of OOP.
 It is also much easier and has significantly less content compared with
