@@ -40,19 +40,20 @@ isSame = x.equals("foo") // true
 
   <ul>
     <li>
-      The two command line arguments can be accessed inside the `main` method 
-      using `args[0]` and `args[1]`.
+      The two command line arguments can be accessed inside the 
+      <code>main</code> method using <code>args[0]</code> and 
+      <code>args[1]</code>.
     </li>
     <li>
       When using multiple operators in the same expression, you might need to 
-      use parentheses to specify operator precedence. e.g., `"foo" + x == y` vs 
-      `"foo" + (x == y)`
+      use parentheses to specify operator precedence. e.g., 
+      <code>"foo" + x == y</code> vs <code>"foo" + (x == y)</code>.
     </li>
   </ul>
 </details>
 
 <details>
-  <summary>partial solution</summary>
+  <summary>Partial solution</summary>
   
   ```java
   class Main {
