@@ -34,8 +34,8 @@ java.awt.Rectangle[x=0,y=0,width=5,height=10]
       Import the <code>java.awt.Rectangle</code> class
     </li>
     <li>
-      This is how you create the required object new 
-      <code>Rectangle(0, 0, 5, 10)</code>
+      This is how you create the required object 
+      <code>new Rectangle(0, 0, 5, 10)</code>
     </li>
   </ul>
 </details>
