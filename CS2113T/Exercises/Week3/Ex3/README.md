@@ -47,20 +47,19 @@ null
 <details>
   <summary>Hint</summary>
 
-Partial solution:
+  Partial solution:
 
-```java
-public static Point move(Point p, Rectangle r) {
-  if (p == null || r == null) {
-    // ...
+  ```java
+  public static Point move(Point p, Rectangle r) {
+      if (p == null || r == null) {
+      // ...
   }
   Point newPoint = new Point(r.x, r.y);
-  r.x = p.x;
-  // ...
-  return newPoint;
-}
-```
-
+      r.x = p.x;
+      // ...
+      return newPoint;
+  }
+  ```
 </details>
 
 Website: https://nus-cs2113-ay2122s1.github.io/website/schedule/week3/topics.html#key-exercise-pass-objects-to-move-method
