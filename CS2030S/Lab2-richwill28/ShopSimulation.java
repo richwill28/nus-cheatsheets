@@ -25,13 +25,15 @@ class ShopSimulation extends Simulation {
      *           pair represents a customer.
      */
     public ShopSimulation(Scanner sc) {
-        this.initEvents = new Event[sc.nextInt()];
-        this.shop = new Shop(sc.nextInt());
+        initEvents = new Event[sc.nextInt()];
+        int numOfCounters = sc.nextInt();
+        int maxQueueLength = sc.nextInt();
+        shop = new Shop(numOfCounters, maxQueueLength);
         for (int i = 0; i < initEvents.length; i++) {
             double arrivalTime = sc.nextDouble();
-            double serviceTime = sc.nextDouble();
-            Customer customer = new Customer(arrivalTime, serviceTime);
-            initEvents[i] = new Arrival(arrivalTime, customer, this.shop);
+            double serviceDuration = sc.nextDouble();
+            Customer customer = new Customer(arrivalTime, serviceDuration);
+            initEvents[i] = new ArrivalEvent(arrivalTime, customer, shop);
         }
     }
 

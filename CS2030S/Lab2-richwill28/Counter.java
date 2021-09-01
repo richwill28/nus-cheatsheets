@@ -1,22 +1,23 @@
 class Counter {
     private static int numOfCounters = 0;
     private final int id;
-    private boolean available;
+    private boolean isAvailable;
 
     public Counter() {
         this.id = numOfCounters++;
-        this.available = true;
-    }
-
-    public int getId() {
-        return this.id;
+        this.isAvailable = true;
     }
 
     public boolean isAvailable() {
-        return this.available;
+        return isAvailable;
     }
 
-    public void setAvailable(boolean available) {
-        this.available = available;
+    public void setAvailable(boolean isAvailable) {
+        this.isAvailable = isAvailable;
+    }
+
+    @Override
+    public String toString() {
+        return "S" + id;
     }
 }

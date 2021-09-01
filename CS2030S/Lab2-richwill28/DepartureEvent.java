@@ -1,14 +1,14 @@
-public class Departure extends Event {
+class DepartureEvent extends Event {
     private Customer customer;
 
-    public Departure(double time, Customer customer) {
+    public DepartureEvent(double time, Customer customer) {
         super(time);
         this.customer = customer;
     }
 
     @Override
     public String toString() {
-        return super.toString() + ": Customer " + this.customer.getId() + " " + "departed";
+        return super.toString() + ": " + customer + " departed";
     }
 
     @Override
