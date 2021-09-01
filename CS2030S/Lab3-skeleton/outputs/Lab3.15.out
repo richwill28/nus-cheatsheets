@@ -1,0 +1,60 @@
+1.000: C0 arrived [ ]
+1.000: C0 service begin (by S0 [ ])
+1.100: C1 arrived [ ]
+1.100: C1 service begin (by S1 [ ])
+1.200: C2 arrived [ ]
+1.200: C2 service begin (by S2 [ ])
+1.300: C3 arrived [ ]
+1.300: C3 joined counter queue (at S0 [ ])
+1.400: C4 arrived [ ]
+1.400: C4 joined counter queue (at S1 [ ])
+1.500: C5 arrived [ ]
+1.500: C5 joined counter queue (at S2 [ ])
+1.600: C6 arrived [ ]
+1.600: C6 joined counter queue (at S0 [ C3 ])
+1.700: C7 arrived [ ]
+1.700: C7 joined counter queue (at S1 [ C4 ])
+1.800: C8 arrived [ ]
+1.800: C8 joined counter queue (at S2 [ C5 ])
+1.900: C9 arrived [ ]
+1.900: C9 joined shop queue [ ]
+2.000: C10 arrived [ C9 ]
+2.000: C10 joined shop queue [ C9 ]
+2.100: C11 arrived [ C9 C10 ]
+2.100: C11 joined shop queue [ C9 C10 ]
+3.000: C0 service done (by S0 [ C3 C6 ])
+3.000: C0 departed
+3.000: C9 joined counter queue (at S0 [ C6 ])
+3.000: C3 service begin (by S0 [ C6 C9 ])
+3.200: C2 service done (by S2 [ C5 C8 ])
+3.200: C2 departed
+3.200: C10 joined counter queue (at S2 [ C8 ])
+3.200: C5 service begin (by S2 [ C8 C10 ])
+4.100: C1 service done (by S1 [ C4 C7 ])
+4.100: C1 departed
+4.100: C11 joined counter queue (at S1 [ C7 ])
+4.100: C4 service begin (by S1 [ C7 C11 ])
+6.000: C3 service done (by S0 [ C6 C9 ])
+6.000: C3 departed
+6.000: C6 service begin (by S0 [ C9 ])
+6.100: C4 service done (by S1 [ C7 C11 ])
+6.100: C4 departed
+6.100: C7 service begin (by S1 [ C11 ])
+6.200: C5 service done (by S2 [ C8 C10 ])
+6.200: C5 departed
+6.200: C8 service begin (by S2 [ C10 ])
+8.000: C6 service done (by S0 [ C9 ])
+8.000: C6 departed
+8.000: C9 service begin (by S0 [ ])
+8.200: C8 service done (by S2 [ C10 ])
+8.200: C8 departed
+8.200: C10 service begin (by S2 [ ])
+9.100: C7 service done (by S1 [ C11 ])
+9.100: C7 departed
+9.100: C11 service begin (by S1 [ ])
+10.200: C10 service done (by S2 [ ])
+10.200: C10 departed
+11.000: C9 service done (by S0 [ ])
+11.000: C9 departed
+12.100: C11 service done (by S1 [ ])
+12.100: C11 departed

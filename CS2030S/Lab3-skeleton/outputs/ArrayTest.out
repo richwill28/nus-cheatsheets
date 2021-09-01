@@ -1,0 +1,55 @@
+jshell> /open Array.java
+jshell> Integer i
+jshell> String s
+jshell> Array<Integer> a;
+jshell> a = new Array<Integer>(4);
+jshell> a.set(0, 3);
+jshell> a.set(1, 6);
+jshell> a.set(2, 4);
+jshell> a.set(3, 1);
+jshell> a.set(0, "huat");
+|  Error:
+|  incompatible types: java.lang.String cannot be converted to java.lang.Integer
+|  a.set(0, "huat");
+|           ^----^
+jshell> i = a.get(0)
+jshell> i
+i ==> 3
+jshell> i = a.get(1)
+jshell> i
+i ==> 6
+jshell> i = a.get(2)
+jshell> i
+i ==> 4
+jshell> i = a.get(3)
+jshell> i
+i ==> 1
+jshell> s = a.get(0)
+|  Error:
+|  incompatible types: java.lang.Integer cannot be converted to java.lang.String
+|  s = a.get(0)
+|      ^------^
+jshell> i = a.min()
+jshell> i
+i ==> 1
+jshell> a.set(3,9);
+jshell> i = a.min()
+jshell> i
+i ==> 3
+jshell> // try something not comparable
+jshell> class A {}
+jshell> Array<A> a;
+|  Error:
+|  type argument A is not within bounds of type-variable T
+|  Array<A> a;
+|        ^
+jshell> class A implements Comparable<Long> { public int compareTo(Long i) { return 0; } }
+jshell> Array<A> a;
+|  Error:
+|  type argument A is not within bounds of type-variable T
+|  Array<A> a;
+|        ^
+jshell> // try something comparable
+jshell> class A implements Comparable<A> { public int compareTo(A a) { return 0; } }
+jshell> Array<A> a;
+jshell> 
