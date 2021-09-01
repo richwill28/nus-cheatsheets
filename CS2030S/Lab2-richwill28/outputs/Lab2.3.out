@@ -1,0 +1,23 @@
+1.100: C0 arrived [ ]
+1.100: C0 service begin (by S0)
+1.200: C1 arrived [ ]
+1.200: C1 joined queue [ ]
+1.300: C2 arrived [ C1 ]
+1.300: C2 joined queue [ C1 ]
+1.400: C3 arrived [ C1 C2 ]
+1.400: C3 departed
+3.100: C0 service done (by S0)
+3.100: C0 departed
+3.100: C1 service begin (by S0)
+4.000: C4 arrived [ C2 ]
+4.000: C4 joined queue [ C2 ]
+5.000: C5 arrived [ C2 C4 ]
+5.000: C5 departed
+5.100: C1 service done (by S0)
+5.100: C1 departed
+5.100: C2 service begin (by S0)
+7.100: C2 service done (by S0)
+7.100: C2 departed
+7.100: C4 service begin (by S0)
+9.100: C4 service done (by S0)
+9.100: C4 departed
