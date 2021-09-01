@@ -1,0 +1,18 @@
+1.000: C0 arrived [ ]
+1.000: C0 service begin (by S0 [ ])
+1.100: C1 arrived [ ]
+1.100: C1 joined counter queue (at S0 [ ])
+1.200: C2 arrived [ ]
+1.200: C2 joined counter queue (at S0 [ C1 ])
+1.300: C3 arrived [ ]
+1.300: C3 departed
+1.400: C4 arrived [ ]
+1.400: C4 departed
+2.000: C0 service done (by S0 [ C1 C2 ])
+2.000: C0 departed
+2.000: C1 service begin (by S0 [ C2 ])
+3.000: C1 service done (by S0 [ C2 ])
+3.000: C1 departed
+3.000: C2 service begin (by S0 [ ])
+4.000: C2 service done (by S0 [ ])
+4.000: C2 departed

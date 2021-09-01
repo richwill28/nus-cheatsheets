@@ -1,0 +1,12 @@
+1.000: C0 arrived [ ]
+1.000: C0 service begin (by S0 [ ])
+2.100: C1 arrived [ ]
+2.100: C1 service begin (by S1 [ ])
+3.100: C1 service done (by S1 [ ])
+3.100: C1 departed
+4.200: C2 arrived [ ]
+4.200: C2 service begin (by S1 [ ])
+5.000: C0 service done (by S0 [ ])
+5.000: C0 departed
+5.200: C2 service done (by S1 [ ])
+5.200: C2 departed

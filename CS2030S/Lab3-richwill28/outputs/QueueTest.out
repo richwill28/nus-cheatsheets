@@ -1,0 +1,34 @@
+jshell> /open Queue.java
+jshell> Integer i;
+jshell> String s;
+jshell> boolean b;
+jshell> Queue<Integer> q = new Queue<Integer>(2);
+jshell> b = q.enq(4);
+jshell> b
+b ==> true
+jshell> b = q.enq(8);
+jshell> b
+b ==> true
+jshell> b = q.enq(0);
+jshell> b
+b ==> false
+jshell> s = q.deq();
+|  Error:
+|  incompatible types: java.lang.Integer cannot be converted to java.lang.String
+|  s = q.deq();
+|      ^-----^
+jshell> i = q.deq();
+jshell> i
+i ==> 4
+jshell> i = q.deq();
+jshell> i
+i ==> 8
+jshell> i = q.deq();
+jshell> i
+i ==> null
+jshell> q.enq("hello");
+|  Error:
+|  incompatible types: java.lang.String cannot be converted to java.lang.Integer
+|  q.enq("hello");
+|        ^-----^
+jshell> 
