@@ -52,8 +52,9 @@ null
   ```java
   public static Point move(Point p, Rectangle r) {
       if (p == null || r == null) {
-      // ...
+          // ...
       }
+      
       Point newPoint = new Point(r.x, r.y);
       r.x = p.x;
       // ...
