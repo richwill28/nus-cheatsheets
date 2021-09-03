@@ -2,7 +2,7 @@
 
 **AY21/22 SEM 1, taught by Prof. Li Jialin & Prof. Cristina Carbunaru.**
 
-This module introduces the basics concepts in operating systems and links it 
+This module introduces the basic concepts in operating systems and links it 
 with contemporary operating systems (e.g. Unix/Linus and Windows).
 
 CEG students are not allowed to take this module and we have to take CG2271 
