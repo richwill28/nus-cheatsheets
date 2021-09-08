@@ -149,6 +149,19 @@ class LinkedList {
         }
 
         // Time complexity: O(n)
+        T getItemAtIndex(int index) {
+            if (size == 0 || index >= size) {
+                return -1;
+            }
+
+            Node<T> *tempNode = head;
+            for (int i = 0; i < index; i++) {
+                tempNode = tempNode->next;
+            }
+            return tempNode->item;
+        }
+
+        // Time complexity: O(n)
         bool exist(T item) {
             Node<T> *tempNode = head;
             while (tempNode != NULL) {
@@ -195,6 +208,15 @@ class LinkedList {
         ~LinkedList() {
             while (size > 0) {
                 removeHead();
+            }
+        }
+
+        // to be replaced with better implementation
+        void print() {
+            Node<T> *tempNode = head;
+            while (tempNode != NULL) {
+                std::cout << tempNode->item << " ";
+                tempNode = tempNode->next;
             }
         }
 };
