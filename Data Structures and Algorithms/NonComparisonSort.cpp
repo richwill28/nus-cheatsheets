@@ -21,31 +21,6 @@ class NonComparisonSort {
             return currentMax;
         }
 
-    public:
-        /**
-         * Random: O(n + r) 
-         * Ascending: O(n + r) 
-         * Descending: O(n + r)
-         * 
-         * @param arr An array of integer.
-         * @param n The number of items in the array.
-         */
-        void countingSort(int arr[], int n) {
-            int r = getMaxNumber(arr, n);
-            int countingArr[r + 1] = { 0 };
-            for (int i = 0; i < n; i++) {
-                countingArr[arr[i]]++;
-            }
-
-            int currentIndex = 0;
-            for (int i = 0; i < r + 1; i++) {
-                while (countingArr[i] != 0) {
-                    arr[currentIndex++] = i;
-                    countingArr[i]--;
-                }
-            }
-        }
-
         /**
          * Modified counting sort for radix which preserves stability. 
          * Time complexity: O(n + b)
@@ -76,6 +51,31 @@ class NonComparisonSort {
 
             for (int i = 0; i < n; i++) {
                 arr[i] = sortedArr[i];    // copy back
+            }
+        }
+
+    public:
+        /**
+         * Random: O(n + r) 
+         * Ascending: O(n + r) 
+         * Descending: O(n + r)
+         * 
+         * @param arr An array of integer.
+         * @param n The number of items in the array.
+         */
+        void countingSort(int arr[], int n) {
+            int r = getMaxNumber(arr, n);
+            int countingArr[r + 1] = { 0 };
+            for (int i = 0; i < n; i++) {
+                countingArr[arr[i]]++;
+            }
+
+            int currentIndex = 0;
+            for (int i = 0; i < r + 1; i++) {
+                while (countingArr[i] != 0) {
+                    arr[currentIndex++] = i;
+                    countingArr[i]--;
+                }
             }
         }
 
