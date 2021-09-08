@@ -10,7 +10,7 @@ public class ComparisonSort {
      * @param i The index of the first element.
      * @param j The index of the second element.
      */
-    private void swap(int[] arr, int i, int j) {
+    private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
@@ -25,7 +25,7 @@ public class ComparisonSort {
      * @param middleIndex The upper and lower index of the left and right subarray, respectively.
      * @param upperIndex The upper index of the right subarray.
      */
-    private void merge(int[] arr, int lowerIndex, int middleIndex, int upperIndex) {
+    private static void merge(int[] arr, int lowerIndex, int middleIndex, int upperIndex) {
         int size = upperIndex - lowerIndex + 1;
         int[] sortedArr = new int[size];
         int currentIndex = 0;
@@ -58,7 +58,7 @@ public class ComparisonSort {
      * @param upperIndex The upper index of the subarray.
      * @return The index of the pivot.
      */
-    private int partition(int[] arr, int lowerIndex, int upperIndex) {
+    private static int partition(int[] arr, int lowerIndex, int upperIndex) {
         int pivot = arr[lowerIndex];
         int currentIndex = lowerIndex;
         for (int i = lowerIndex + 1; i <= upperIndex; i++) {
@@ -80,7 +80,7 @@ public class ComparisonSort {
      * @param upperIndex The upper index of the subarray.
      * @return The index of the pivot.
      */
-    private int randomizedPartition(int[] arr, int lowerIndex, int upperIndex) {
+    private static int randomizedPartition(int[] arr, int lowerIndex, int upperIndex) {
         int randomIndex = ThreadLocalRandom.current().nextInt(lowerIndex, upperIndex + 1);    // pseudorandom int value between [lowerIndex, upperIndex]
         swap(arr, lowerIndex, randomIndex);
         int pivot = arr[lowerIndex];
@@ -103,7 +103,7 @@ public class ComparisonSort {
      * @param arr An array of integer.
      * @param size The size of the array.
      */
-    public void bubbleSort(int[] arr, int size) {
+    public static void bubbleSort(int[] arr, int size) {
         boolean isSwapped;
         int indexOfLastUnsortedElement = size - 1;
         do {
@@ -126,7 +126,7 @@ public class ComparisonSort {
      * @param arr An array of integer.
      * @param size The size of the array.
      */
-    public void insertionSort(int[] arr, int size) {
+    public static void insertionSort(int[] arr, int size) {
         int indexOfElementToBeInserted;
         for (int i = 1; i < size; i++) {
             indexOfElementToBeInserted = i;
@@ -150,7 +150,7 @@ public class ComparisonSort {
      * @param lowerIndex The lower index of the subarray.
      * @param upperIndex The upper index of the subarray.
      */
-    public void mergeSort(int[] arr, int lowerIndex, int upperIndex) {
+    public static void mergeSort(int[] arr, int lowerIndex, int upperIndex) {
         if (lowerIndex < upperIndex) {
             int middleIndex = lowerIndex + (upperIndex - lowerIndex) / 2;    // an overflow-safe implementation of (lowerIndex + upperIndex) / 2
             mergeSort(arr, lowerIndex, middleIndex);
@@ -168,7 +168,7 @@ public class ComparisonSort {
      * @param lowerIndex The lower bound of the subarray.
      * @param upperIndex The upper bound of the subarray.
      */
-    public void quickSort(int[] arr, int lowerIndex, int upperIndex) {
+    public static void quickSort(int[] arr, int lowerIndex, int upperIndex) {
         if (lowerIndex < upperIndex) {
             int pivotIndex = partition(arr, lowerIndex, upperIndex);
             quickSort(arr, lowerIndex, pivotIndex - 1);    // recursively sort left subarray
@@ -185,7 +185,7 @@ public class ComparisonSort {
      * @param lowerIndex The lower bound of the subarray.
      * @param upperIndex The upper bound of the subarray.
      */
-    public void randomizedQuickSort(int[] arr, int lowerIndex, int upperIndex) {
+    public static void randomizedQuickSort(int[] arr, int lowerIndex, int upperIndex) {
         if (lowerIndex < upperIndex) {
             int pivotIndex = randomizedPartition(arr, lowerIndex, upperIndex);
             randomizedQuickSort(arr, lowerIndex, pivotIndex - 1);    // recursively sort left subarray
@@ -201,7 +201,7 @@ public class ComparisonSort {
      * @param arr An array of integer.
      * @param size The size of the array.
      */
-    public void selectionSort(int[] arr, int size) {
+    public static void selectionSort(int[] arr, int size) {
         for (int i = 0; i < size - 1; i++) {
             int indexOfCurrentMinimum = i;
             for (int j = i + 1; j < size; j++) {
