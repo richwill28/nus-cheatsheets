@@ -42,8 +42,10 @@ class SelectionAlgo {
                 if (position == k - 1) {
                     return arr[pivotIndex];
                 } else if (position > k - 1) {
+                    // position is more, recur to left side
                     return quickSelect(arr, lowerIndex, pivotIndex - 1, k);
                 } else if (position < k - 1) {
+                    // position is less, recur to right side
                     return quickSelect(arr, pivotIndex + 1, upperIndex, k - (position + 1));
                 }
             }
