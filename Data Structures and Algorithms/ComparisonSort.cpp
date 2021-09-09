@@ -50,7 +50,7 @@ class ComparisonSort {
             int pivot = arr[lowerIndex];
             int currentIndex = lowerIndex;
             for (int i = lowerIndex + 1; i <= upperIndex; i++) {
-                if (arr[i] < pivot) {
+                if (arr[i] <= pivot) {
                     currentIndex++;
                     std::swap(arr[i], arr[currentIndex]);
                 }
@@ -89,7 +89,7 @@ class ComparisonSort {
             int pivot = arr[lowerIndex];
             int currentIndex = lowerIndex;
             for (int i = lowerIndex + 1; i <= upperIndex; i++) {
-                if (arr[i] < pivot) {
+                if (arr[i] <= pivot) {
                     currentIndex++;
                     std::swap(arr[i], arr[currentIndex]);
                 }
