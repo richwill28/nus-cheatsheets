@@ -131,7 +131,7 @@ class LinkedList {
         // Time complexity: O(1)
         T getHeadItem() {
             if (size == 0) {
-                return -1;
+                return -1;    // to be replaced with better implementation
             }
             return head->item;
         }
@@ -139,7 +139,7 @@ class LinkedList {
         // Time complexity: O(n)
         T getTailItem() {
             if (size == 0) {
-                return -1;
+                return -1;    // to be replaced with better implementation
             }
 
             Node<T> *tempNode = head;
@@ -152,7 +152,7 @@ class LinkedList {
         // Time complexity: O(n)
         T getItemAtIndex(int index) {
             if (size == 0 || index >= size) {
-                return -1;
+                return -1;    // to be replaced with better implementation
             }
 
             Node<T> *tempNode = head;
@@ -177,18 +177,6 @@ class LinkedList {
         // Time complexity: O(1)
         bool isEmpty() {
             return (size == 0);
-        }
-
-        // Time complexity: O(n)
-        void rotateList(int offset) {
-            if (size == 0) {
-                return;
-            }
-
-            offset = offset % size;
-            for (int i = 0; i < offset; i++) {
-                head = head->next;
-            }
         }
 
         // Time complexity: O(n)
