@@ -100,6 +100,7 @@ class LinkedList {
                 currNode = currNode->next;
             }
             prevNode->next = NULL;
+            currNode->next = NULL;
             delete currNode;
             size--;
         }
