@@ -7,12 +7,8 @@ class ListNode {
 
     public:
         ListNode(int);
-
-        int content() {
-            return _item;
-        }
-
-    friend class List;
+        int content() { return _item; }
+        friend class List;
 };
 
 class List {
@@ -21,11 +17,7 @@ class List {
         ListNode *_head;
 
     public:
-        List() {
-            _size = 0;
-            _head = NULL;
-        }
-
+        List() { _size = 0; _head = NULL; }
         ~List();
         void insertHead(int);
         void removeHead();
