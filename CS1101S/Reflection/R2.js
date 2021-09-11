@@ -27,7 +27,7 @@ function factorialWithIterativeProcess(n) {
      * @param {int} product The product of n factorial.
      * @param {int} counter The current iteration.
      * @param {int} maxCount The maximum number of iteration.
-     * @returns 
+     * @returns The factorial of n.
      */
     function factorialIterator(product, counter, maxCount) {
         return counter > maxCount ? product : factorialIterator(counter * product, counter + 1, maxCount);
