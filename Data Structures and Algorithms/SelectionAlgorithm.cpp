@@ -1,6 +1,6 @@
 #include <iostream>
 
-class SelectionAlgo {
+class SelectionAlgorithm {
     private:
         /**
          * The partitioning routine of Quick Select. 
