@@ -5,7 +5,7 @@
 This module introduces students to the systematic and rigorous development of
 software systems. It covers requirements, design, implementation, quality
 assurance, and project management aspects of small-to-medium size multi-person
-software projects. CS2113T also covers Object Oriented Programming Paradigm
+software projects. CS2113T also covers Object Oriented Programming paradigm
 with Java. For more information, visit the [course website](https://nus-cs2113-ay2122s1.github.io/website/).
 
 Unfortunately, CS2113T does not cover as much depth as CS2030S in terms of OOP.
