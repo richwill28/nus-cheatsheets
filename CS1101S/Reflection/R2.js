@@ -21,17 +21,8 @@ function factorialWithRecursiveProcess(n) {
  * @returns The factorial of n.
  */
 function factorialWithIterativeProcess(n) {
-    /**
-     * Calculate the factorial of n with iterative process.
-     * 
-     * @param {int} product The product of n factorial.
-     * @param {int} counter The current iteration.
-     * @param {int} maxCount The maximum number of iteration.
-     * @returns The factorial of n.
-     */
     function factorialIterator(product, counter, maxCount) {
         return counter > maxCount ? product : factorialIterator(counter * product, counter + 1, maxCount);
     }
-
     return factorialIterator(1, 1, n);
 }
