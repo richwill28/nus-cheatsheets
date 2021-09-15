@@ -62,4 +62,4 @@ I had studied during my time in NUS.
 
 Note: The rating indicates the overall quality (i.e., how well it was taught) and
 practicality (i.e., how much I benefited from it). This is based solely on my opinion
-when I took the module, your situation might be different.
+when I took the module, your situation might be different. [For more information](https://github.com/richwill28/NUS-Resources/blob/main/RATING.md).
