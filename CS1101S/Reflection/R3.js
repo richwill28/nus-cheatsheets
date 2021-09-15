@@ -77,7 +77,8 @@ function integral(f, a, b, dx) {
  * @param {double} a Lower bound of the limit.
  * @param {double} b Upper bound of the limit.
  * @param {double} n The number of intervals.
- * @returns 
+ * @returns The definite integral of f between the limits
+ *          a and b.
  */
 function simpsonRule(f, a, b, n) {
     const h = (b - a) / n;
