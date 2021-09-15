@@ -22,7 +22,7 @@ function sum(term, a, next, b) {
  * @param {double} b Upper bound.
  * @returns term(a) + term(a + 1) + ... + term(b).
  */
-function iterativeSum(term, a, next, b) {
+function sumWithIterativeProcess(term, a, next, b) {
     function iter(a, result) {
         return a > b ? result : iter(next(a), result + term(a));
     }
@@ -38,11 +38,12 @@ function iterativeSum(term, a, next, b) {
  * @returns 1 x 2 + 2 x 3 + ... + n x (n + 1).
  */
 function mySumWithoutHigherOrder(n) {
-    return n < 1 ? 0 : n * (n + 1) + mySum(n - 1);
+    return n < 1 ? 0 : n * (n + 1) + mySumWithoutHigherOrder(n - 1);
 }
 
 /**
  * Compute 1 x 2 + 2 x 3 + ... + n x (n + 1).
+ * Is this a higher order function?
  * 
  * @param {int} n An integer.
  * @returns 1 x 2 + 2 x 3 + ... + n x (n + 1).
