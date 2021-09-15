@@ -5,14 +5,11 @@
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-Some of the works that I have done, and the resources or tools that I used during 
-my undergraduate studies in NUS. Feel free to open issue/PR if you spot any 
-mistake.
+Some of the works that I have done, and the resources or tools that I used during my undergraduate studies in NUS. Feel free to open issue/PR if you spot any mistake.
 
 ## Details
 
-I majored in Computer Engineering in AY2020/2021. Here are all the modules that
-I had studied during my time in NUS.
+I majored in Computer Engineering in AY2020/2021. Here are all the modules that I had studied during my time in NUS.
 
 - ### Modules that I took as a regular student
 
@@ -60,6 +57,4 @@ I had studied during my time in NUS.
   | CS2040S | Data Structures and Algorithms | AY21/22 Sem 1 |  |  |
   | CS2100 | Computer Organisation | AY21/22 Sem 1 |  |  |
 
-Note: The rating indicates the overall quality (i.e., how well it was taught) and
-practicality (i.e., how much I benefited from it). This is based solely on my opinion
-when I took the module, your situation might be different. [For more information](https://github.com/richwill28/NUS-Resources/blob/main/RATING.md).
+Note: The rating indicates the overall quality (i.e., how well it was taught) and practicality (i.e., how much I benefited from it). This is based solely on my opinion when I took the module, your situation might be different. [For more information](https://github.com/richwill28/NUS-Resources/blob/main/RATING.md).
