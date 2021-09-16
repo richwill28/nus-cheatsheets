@@ -1,9 +1,6 @@
 # NUS Resources
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg) ![work-in-progress](https://user-images.githubusercontent.com/69445142/133667291-1a66d1a2-2ae0-4ecf-bd64-475bf3c71db4.png) [![license-cc-by-nc-sa-4.0](https://user-images.githubusercontent.com/69445142/133666673-afd82910-7f66-4c86-bc0e-abecbb0e41a3.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Some of the works that I have done, and the resources or tools that I used during my undergraduate studies in NUS. Feel free to open issue/PR if you spot any mistake.
 
