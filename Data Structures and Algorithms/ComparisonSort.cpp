@@ -199,8 +199,8 @@ class ComparisonSort {
          * Descending: O(n^2)
          * 
          * @param arr An array of integer.
-         * @param lowerIndex The lower bound of the subarray.
-         * @param upperIndex The upper bound of the subarray.
+         * @param lowerIndex The lower index of the subarray.
+         * @param upperIndex The upper index of the subarray.
          */
         void quickSort(int arr[], int lowerIndex, int upperIndex) {
             if (lowerIndex < upperIndex) {
@@ -216,14 +216,40 @@ class ComparisonSort {
          * Descending: O(n log n)
          * 
          * @param arr An array of integer.
-         * @param lowerIndex The lower bound of the subarray.
-         * @param upperIndex The upper bound of the subarray.
+         * @param lowerIndex The lower index of the subarray.
+         * @param upperIndex The upper index of the subarray.
          */
         void randomizedQuickSort(int arr[], int lowerIndex, int upperIndex) {
             if (lowerIndex < upperIndex) {
                 int pivotIndex = randomizedPartition(arr, lowerIndex, upperIndex);
                 randomizedQuickSort(arr, lowerIndex, pivotIndex - 1);    // recursively sort left subarray
                 randomizedQuickSort(arr, pivotIndex + 1, upperIndex);    // recursively sort right subarray
+            }
+        }
+
+        /**
+         * Random: O(n log n) 
+         * Ascending: O(n log n) 
+         * Descending: O(n log n)
+         * 
+         * @param arr An array of integer.
+         * @param lowerIndex The lower index of the subarray.
+         * @param upperIndex The upper index of the subarray.
+         */
+        void paranoidQuickSort(int arr[], int lowerIndex, int upperIndex) {
+            if (lowerIndex < upperIndex) {
+                int pivotIndex;
+                int size = upperIndex - lowerIndex + 1;
+                int lowerBound = lowerIndex + size * 1 / 10;
+                int upperBound = upperBound - size * 1 / 10;
+                while (true) {
+                    pivotIndex = randomizedPartition(arr, lowerIndex, upperIndex);
+                    if (pivotIndex > lowerBound && pivotIndex < upperBound) {
+                        break;
+                    }
+                }
+                paranoidQuickSort(arr, lowerIndex, pivotIndex - 1);    // recursively sort left subarray
+                paranoidQuickSort(arr, pivotIndex + 1, upperIndex);    // recursively sort right subarray
             }
         }
 
