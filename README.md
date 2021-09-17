@@ -10,7 +10,7 @@ I majored in Computer Engineering in AY2020/2021. Here are all the modules that 
 
 - ### Modules that I took as a regular student
 
-  | Module      | Description | Academic Year | Rating | Comment |
+  | Module      | Description | Academic Year | Rating | Score |
   | ----------- | ----------- | ------------- | ------ | ------- |
   | CG1111 | Engineering Principles and Practice 1 | AY20/21 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
   | CS1010 | Programming Methodology | AY20/21 Sem 1 | ★★★★★★★★★☆ | 9/10 |
@@ -19,7 +19,7 @@ I majored in Computer Engineering in AY2020/2021. Here are all the modules that 
   | MA1511 | Engineering Calculus | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
   | MA1512 | Differential Equations for Engineering | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
   | CG1112 | Engineering Principles and Practice 2 | AY20/21 Sem 2 | ★★★☆☆☆☆☆☆☆ | 3/10 |
-  | CS2040C | Data Structures and Algorithms | AY20/21 Sem 2 | ★★★★★★★★☆☆ | 8/10 |
+  | CS2040C | Data Structures and Algorithms | AY20/21 Sem 2 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2040C) |
   | EE2026 | Digital Design | AY20/21 Sem 2 | ★★★★★★★☆☆☆ | 7/10 |
   | ES1103 | English for Academic Purposes | AY20/21 Sem 2 | ★★★★☆☆☆☆☆☆ | 4/10 |
   | GEQ1000 | Asking Questions | AY20/21 Sem 2 | ★★★★★★☆☆☆☆ | 6/10 |
@@ -34,20 +34,20 @@ I majored in Computer Engineering in AY2020/2021. Here are all the modules that 
 
 - ### Modules that I took as a teaching assistant
 
-  | Module      | Description | Academic Year | Rating | Comment |
+  | Module      | Description | Academic Year | Rating | Score |
   | ----------- | ----------- | ------------- | ------ | ------- |
   | TIC2001 | Data Structures and Algorithms | AY21/22 Sem 1 |  |  |
 
 - ### Modules that I took as a guest student
 
-  | Module      | Description | Academic Year | Rating | Comment |
+  | Module      | Description | Academic Year | Rating | Score |
   | ----------- | ----------- | ------------- | ------ | ------- |
   | CS2105 | Introduction to Computer Networks | AY21/22 Sem 1 |  |  |
   | CS2106 | Introduction to Operating Systems | AY21/22 Sem 1 |  |  |
 
 - ### Modules that I read by myself
 
-  | Module      | Description | Academic Year | Rating | Comment |
+  | Module      | Description | Academic Year | Rating | Score |
   | ----------- | ----------- | ------------- | ------ | ------- |
   | CS1101S | Programming Methodology | AY21/22 Sem 1 |  |  |
   | CS2030S | Programming Methodology II | AY21/22 Sem 1 |  |  |
