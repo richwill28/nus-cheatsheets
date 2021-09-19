@@ -5,8 +5,9 @@
 **/.idea/
 **/*.iml
 
-# java class files
+# java output files
 **/*.class
+**/out/
 
 # unpublished resources
 CS2040C/Assignments/Assignment 2 Template and Linked List Sorting/
