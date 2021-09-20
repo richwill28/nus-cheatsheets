@@ -13,7 +13,7 @@ I majored in Computer Engineering in AY2020/2021. Here are all the modules that 
   | Module      | Description | Academic Year | Rating | Score |
   | ----------- | ----------- | ------------- | ------ | ------- |
   | CG1111 | Engineering Principles and Practice 1 | AY20/21 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
-  | CS1010 | Programming Methodology | AY20/21 Sem 1 | ★★★★★★★★★☆ | 9/10 |
+  | CS1010 | Programming Methodology | AY20/21 Sem 1 | ★★★★★★★★★☆ | [9/10](https://github.com/richwill28/NUS-Resources/tree/main/CS1010) |
   | CS1231 | Discrete Structures | AY20/21 Sem 1 | ★★★★★★☆☆☆☆ | 6/10 |
   | GER1000 | Quantitative Reasoning | AY20/21 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
   | MA1511 | Engineering Calculus | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
