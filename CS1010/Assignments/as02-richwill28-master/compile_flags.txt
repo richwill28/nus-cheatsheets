@@ -1,0 +1,12 @@
+-g
+-I/home/course/cs1010/include
+-L/home/course/cs1010/lib
+-Wall
+-Wbad-function-cast
+-Wconversion
+-Wextra
+-Wfloat-equal
+-Wmissing-variable-declarations
+-Wpedantic
+-Wshadow
+-Wunreachable-code

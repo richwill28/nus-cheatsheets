@@ -1,0 +1,16 @@
+-g
+-I/home/course/cs1010/include
+-Wall
+-Wbad-function-cast
+-Wconversion
+-Wextra
+-Wfloat-equal
+-Wmissing-variable-declarations
+-Wpedantic
+-Wshadow
+-Wunreachable-code-aggressive
+-Wvla
+-Wtautological-compare
+-Wtautological-constant-in-range-compare
+-Wcomma
+-Wformat-non-iso
