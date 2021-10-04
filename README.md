@@ -49,9 +49,9 @@ I majored in Computer Engineering in AY2020/2021. Here are all the modules that 
 
   | Module      | Description | Academic Year | Rating | Score |
   | ----------- | ----------- | ------------- | ------ | ------- |
-  | CS1101S | Programming Methodology | AY21/22 Sem 1 |  |  |
-  | CS2030S | Programming Methodology II | AY21/22 Sem 1 |  |  |
-  | CS2040S | Data Structures and Algorithms | AY21/22 Sem 1 |  |  |
+  | CS1101S | Programming Methodology | AY21/22 Sem 1 | ★★★★★★★★★☆ | [9/10](https://github.com/richwill28/NUS-Resources/tree/main/CS1101S) |
+  | CS2030S | Programming Methodology II | AY21/22 Sem 1 | ★★★★★★★★★☆ | [9/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2030S) |
+  | CS2040S | Data Structures and Algorithms | AY21/22 Sem 1 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2040S) |
   | CS2100 | Computer Organisation | AY21/22 Sem 1 |  |  |
 
 Note: The rating indicates the overall quality (i.e., how well it was taught) and practicality (i.e., how much I benefited from it). This is based solely on my opinion when I took the module, your situation might be different. [For more information](https://github.com/richwill28/NUS-Resources/blob/main/RATING.md).
