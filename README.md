@@ -18,7 +18,7 @@ I majored in Computer Engineering in AY2020/2021. Here are all the modules that 
   | GER1000 | Quantitative Reasoning | AY20/21 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
   | MA1511 | Engineering Calculus | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
   | MA1512 | Differential Equations for Engineering | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
-  | CG1112 | Engineering Principles and Practice 2 | AY20/21 Sem 2 | ★★★☆☆☆☆☆☆☆ | 3/10 |
+  | CG1112 | Engineering Principles and Practice 2 | AY20/21 Sem 2 | ★★★☆☆☆☆☆☆☆ | [3/10](https://github.com/richwill28/NUS-Resources/tree/main/CG2027) |
   | CS2040C | Data Structures and Algorithms | AY20/21 Sem 2 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2040C) |
   | EE2026 | Digital Design | AY20/21 Sem 2 | ★★★★★★★☆☆☆ | 7/10 |
   | ES1103 | English for Academic Purposes | AY20/21 Sem 2 | ★★★★☆☆☆☆☆☆ | 4/10 |
