@@ -41,7 +41,7 @@ void List<T>::print(bool withNL) {
         } else {
             cout << " ";
         }
-		tempNode = tempNode->_next;
+        tempNode = tempNode->_next;
     }
     cout << endl;
 }
@@ -82,7 +82,7 @@ T List<T>::extractMax() {
     T maxItem = maxNode->_item;
     if (maxNode == _head) {
         removeHead();
-	} else {
+    } else {
         prevNode->_next = maxNode->_next;
         delete maxNode;
         _size--;
