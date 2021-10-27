@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: kotlin-stdlib.jar kotlin-reflect.jar kotlin-test.jar
+
