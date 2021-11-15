@@ -34,7 +34,7 @@ I majored in Computer Engineering from AY2020/2021. Here are all the modules tha
 
   **Statistics**
 
-  | Module Department | Average Rating | Standard Deviation |
+  | Module Department | Average Score | Standard Deviation |
   | ----------------- | -------------- | ------------------ |
   | CELC | 4.50 | 0.50 |
   | CS | 7.50 | 1.67 |
