@@ -11,4 +11,4 @@
 | ★★☆☆☆☆☆☆☆☆ | 2/10  | Horrible module. Avoid this like a plague.                          |
 | ★☆☆☆☆☆☆☆☆☆ | 1/10  | Appalling module. Why am I still here? Just to suffer?              |
 
-Note: This is obviously not an accurate representation for each and every modules, so take it with a pinch of salt. I will often elaborate on why I think a certain module deserves a certain score.
+Note: This is obviously not an accurate representation for each and every module, so take it with a pinch of salt. I will often elaborate on why I think a certain module deserves a certain score.
