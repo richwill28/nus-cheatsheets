@@ -238,10 +238,11 @@ class ComparisonSort {
          */
         void paranoidQuickSort(int arr[], int lowerIndex, int upperIndex) {
             if (lowerIndex < upperIndex) {
-                int pivotIndex;
                 int size = upperIndex - lowerIndex + 1;
                 int lowerBound = lowerIndex + size * 1 / 10;
-                int upperBound = upperBound - size * 1 / 10;
+                int upperBound = upperIndex - size * 1 / 10;
+
+                int pivotIndex;
                 while (true) {
                     // repeat until a good pivot is chosen
                     pivotIndex = randomizedPartition(arr, lowerIndex, upperIndex);
