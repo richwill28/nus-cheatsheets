@@ -194,6 +194,35 @@ public class ComparisonSort {
     }
 
     /**
+     * Random: O(n log n)
+     * Ascending: O(n log n)
+     * Descending: O(n log n)
+     * 
+     * @param arr An array of integer.
+     * @param lowerIndex The lower index of the subarray.
+     * @param upperIndex The upper index of the subarray.
+     */
+    public static void paranoidQuickSort(int[] arr, int lowerIndex, int upperIndex) {
+        if (lowerIndex < upperIndex) {
+            int size = upperIndex - lowerIndex + 1;
+            int lowerBound = lowerIndex + size * 1 / 10;
+            int upperBound = upperIndex - size * 1 / 10;
+
+            int pivotIndex;
+            while (true) {
+                // repeat until a good pivot is chosen
+                pivotIndex = randomizedPartition(arr, lowerIndex, upperIndex);
+                if (pivotIndex > lowerBound && pivotIndex < upperBound) {
+                    break;
+                }
+            }
+
+            paranoidQuickSort(arr, lowerIndex, pivotIndex - 1);    // recursively sort left subarray
+            paranoidQuickSort(arr, pivotIndex + 1, upperIndex);    // recursively sort right subarray
+        }
+    }
+
+    /**
      * Random: O(n^2)
      * Ascending: O(n^2)
      * Descending: O(n^2)
