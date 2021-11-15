@@ -1,6 +1,5 @@
 /**
- * An implementation of the factorial function
- * with recursive process.
+ * An implementation of the factorial function with recursive process.
  * Time complexity: O(n)
  * Space complexity: O(n)
  * 
@@ -12,8 +11,7 @@ function factorialWithRecursiveProcess(n) {
 }
 
 /**
- * An implementation of the factorial function
- * with iterative process.
+ * An implementation of the factorial function with iterative process.
  * Time compplexity: O(n)
  * Space complexity: O(1)
  * 
