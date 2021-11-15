@@ -6,7 +6,7 @@ Some of the works that I have done, and the resources or tools that I used durin
 
 ## Details
 
-I majored in Computer Engineering in AY2020/2021. Here are all the modules that I had studied during my time in NUS.
+I majored in Computer Engineering from AY2020/2021. Here are all the modules that I had studied during my time in NUS.
 
 - ### Modules that I took as a regular student
 
