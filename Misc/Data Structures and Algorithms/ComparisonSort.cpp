@@ -243,11 +243,13 @@ class ComparisonSort {
                 int lowerBound = lowerIndex + size * 1 / 10;
                 int upperBound = upperBound - size * 1 / 10;
                 while (true) {
+                    // repeat until a good pivot is chosen
                     pivotIndex = randomizedPartition(arr, lowerIndex, upperIndex);
                     if (pivotIndex > lowerBound && pivotIndex < upperBound) {
                         break;
                     }
                 }
+
                 paranoidQuickSort(arr, lowerIndex, pivotIndex - 1);    // recursively sort left subarray
                 paranoidQuickSort(arr, pivotIndex + 1, upperIndex);    // recursively sort right subarray
             }
