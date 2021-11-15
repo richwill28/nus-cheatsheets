@@ -32,6 +32,18 @@ I majored in Computer Engineering from AY2020/2021. Here are all the modules tha
   | CS2113T | Software Engineering & Object-Oriented Programming | AY21/22 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
   | ST2334 | Probability & Statistics | AY21/22 Sem 1 | ★★★★★★☆☆☆☆ | 6/10 |
 
+  **Statistics**
+
+  | Module Department | Average Rating | Standard Deviation |
+  | ----------------- | -------------- | ------------------ |
+  | CELC | 4.50 | 0.50 |
+  | CS | 7.50 | 1.67 |
+  | CG | 4.25 | 2.25 |
+  | EE | 7.00 | 0.00 |
+  | GE | 5.50 | 0.50 |
+  | MA | 7.00 | 0.00 |
+  | ST | 6.00 | 0.00 |
+
 - ### Modules that I took as a teaching assistant
 
   | Module      | Description | Academic Year | Rating | Score |
