@@ -43,13 +43,12 @@ function mySumWithoutHigherOrder(n) {
 
 /**
  * Compute 1 x 2 + 2 x 3 + ... + n x (n + 1).
- * Is this a higher order function?
  * 
  * @param {int} n An integer.
  * @returns 1 x 2 + 2 x 3 + ... + n x (n + 1).
  */
-function mySumWithHigherOrder(n) {
-    return sum(x => x * (x + 1), 1, x => x + 1, n);
+function mySumWithHigherOrder() {
+    return n => sum(x => x * (x + 1), 1, x => x + 1, n);
 }
 
 /**
