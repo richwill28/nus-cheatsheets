@@ -30,12 +30,12 @@ void customerQueueTest(int n_cust) {
     cout << "List of customers and their arrival and processing times" << endl;
     for (i = 0; i < n_cust; i++) {
         custList[i].setAT(i);
-        custList[i].setPT((n_cust - i) % (n_cust / 2) + 1 + (i % 2)*(n_cust / 2));
+        custList[i].setPT((n_cust - i) % (n_cust / 2) + 1 + (i % 2) * (n_cust / 2));
         cout << "Customer " << i << " will arrive at time " << custList[i].AT() << " with PT=" << custList[i].PT() << endl;
     }
     cout << endl;
 
-    for (int round = 0; round<2; round++) {
+    for (int round = 0; round < 2; round++) {
         cout << endl << endl;
         cout << "Test Round " << round + 1 << endl;
         cout << (round == 0 ? "First come first serve" : "Customer with the least PT served first") << endl;
@@ -44,7 +44,7 @@ void customerQueueTest(int n_cust) {
         totalWaitingTime = 0;
 
         // modification starts here
-        int over = 0;
+        int over = 0;   // indicates the end time of processing for each customer
         while (!queue.empty() || current_time < n_cust) {
             if (current_time < n_cust) {
                 queue.insert(custList[current_time]);
@@ -58,7 +58,7 @@ void customerQueueTest(int n_cust) {
 
             Customer c = queue.extractMax();
             WT = current_time - c.AT();
-            WT = WT <= 0 ? 0 : WT;
+            WT = (WT <= 0) ? 0 : WT;
             if (WT == 0) {
                 cout << "Customer arrives when no one is waiting" << endl;
             }
@@ -69,7 +69,7 @@ void customerQueueTest(int n_cust) {
         }
 
         cout << "Total Waiting Time: " << totalWaitingTime << endl;
-        cout << "Average Waiting Time: " << totalWaitingTime / (float)n_cust << endl;
+        cout << "Average Waiting Time: " << totalWaitingTime / (float) n_cust << endl;
 	}
 
     delete[] custList;
