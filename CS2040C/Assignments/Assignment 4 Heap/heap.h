@@ -12,17 +12,17 @@ class Heap {
                             // it is not a good/usual implementation, so we hide it from public
 
     public:
-    Heap() { _heap = new T[DEFAULTHEAPSIZE]; _n = 0; }
-    void insert(T);
-    bool empty() { return _n == 0; }
-    T extractMax();
-    T peekMax() { return _heap[0]; }
-    void printHeapArray();
-    void printTree();
-    void increaseKey(T from, T to);
-    void decreaseKey(T from, T to);
-    void deleteItem(T);
-    ~Heap() { delete[] _heap; }
+        Heap() { _heap = new T[DEFAULTHEAPSIZE]; _n = 0; }
+        void insert(T);
+        bool empty() { return _n == 0; }
+        T extractMax();
+        T peekMax() { return _heap[0]; }
+        void printHeapArray();
+        void printTree();
+        void increaseKey(T from, T to);
+        void decreaseKey(T from, T to);
+        void deleteItem(T);
+        ~Heap() { delete[] _heap; }
 };
 
 #include "heap.hpp"
