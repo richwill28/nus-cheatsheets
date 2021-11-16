@@ -52,6 +52,7 @@ void customerQueueTest(int n_cust) {
             }
 
             if (current_time < over) {
+                // if previous customer still processing
                 current_time++;
                 continue;
             }
