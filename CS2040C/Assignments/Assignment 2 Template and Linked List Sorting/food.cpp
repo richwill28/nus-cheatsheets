@@ -11,7 +11,6 @@ Food Food:: operator+(const Food& f) {
     return Food(_name + " " + f._name, _cal + f._cal);
 }
 
-
 bool Food:: operator>(const Food& f) {
     return _cal > f._cal;
 }

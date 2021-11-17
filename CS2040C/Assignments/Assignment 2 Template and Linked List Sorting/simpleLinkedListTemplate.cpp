@@ -68,7 +68,7 @@ T List<T>::headItem() {
 
 template <class T>
 T List<T>::extractMax() {
-    // assuming the list is non-empty
+    // assuming list is non-empty
     ListNode<T> *prevNode = NULL;
     ListNode<T> *maxNode = _head;
     ListNode<T> *currNode = _head;
