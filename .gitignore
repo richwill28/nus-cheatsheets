@@ -10,7 +10,10 @@
 **/out/
 
 # unpublished resources
-CS2040C/Assignments/Assignment 5 SSSP/
+CS2040C/Assignments/Assignment 5 SSSP/heap.h
+CS2040C/Assignments/Assignment 5 SSSP/heap.hpp
+CS2040C/Assignments/Assignment 5 SSSP/simpleLinkedListTemplate.h
+CS2040C/Assignments/Assignment 5 SSSP/simpleLinkedListTemplate.cpp
 CS2040S/Contests/
 CS2106/Lab Assignments/
 CG2028/
