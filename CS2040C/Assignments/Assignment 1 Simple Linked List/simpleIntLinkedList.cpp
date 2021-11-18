@@ -8,9 +8,9 @@ ListNode::ListNode(int n) {
 }
 
 void List::insertHead(int n) {
-    ListNode *aNewNode = new ListNode(n);
-    aNewNode->_next = _head;
-    _head = aNewNode;
+    ListNode *newNode = new ListNode(n);
+    newNode->_next = _head;
+    _head = newNode;
     _size++;
 }
 
