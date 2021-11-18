@@ -38,13 +38,10 @@ int Graph::shortestDistance(int s, int d) {
             int weight = _al[i].current().weight();
             // relaxation
             if (!visited[dest] && (dist[i] + weight < dist[dest])) {
-                if (dist[dest] != 2147483647) {
-                    // delete old node if already exist in PQ
-                    PQ.deleteItem(nodeWeightPair(dest, (-1) * dist[dest]));
-                }
+                PQ.deleteItem(nodeWeightPair(dest, (-1) * dist[dest])); // delete old node
                 dist[dest] = dist[i] + weight;  // update distance
                 parent[dest] = i;   // update parent
-                PQ.insert(nodeWeightPair(dest, (-1) * dist[dest])); // update node in PQ
+                PQ.insert(nodeWeightPair(dest, (-1) * dist[dest])); // update node
             }
         }
         visited[i] = true;  // prevent visiting extracted node

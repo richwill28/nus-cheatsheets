@@ -13,6 +13,7 @@ class nodeWeightPair {
         int nodeIndex() { return _node; }
         int weight() { return _weight; }
         bool operator>(const nodeWeightPair& nwp) { return _weight > nwp._weight; }
+        bool operator<(const nodeWeightPair& nwp) { return _weight < nwp._weight; }
         bool operator==(const nodeWeightPair& nwp) { return _node == nwp._node; }
         friend ostream& operator<<(ostream&, const nodeWeightPair&);
 };
