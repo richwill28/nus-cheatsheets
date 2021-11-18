@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 using namespace std;
 
 template <class T>
@@ -22,10 +23,11 @@ class List {
     private:
         int _size;
         ListNode<T> *_head;
+        ListNode<T> *_current;
 
     public:
         // for the following functions, you cannot assume that the list is not empty or empty...
-        List() { _size = 0; _head = NULL; }
+        List() { _size = 0; _head = NULL; _current = NULL; }
         ~List();
         void insertHead(T);
         void print(bool withNL = false);    // print the items in one single row if false, otherwise, print each item in a new line
