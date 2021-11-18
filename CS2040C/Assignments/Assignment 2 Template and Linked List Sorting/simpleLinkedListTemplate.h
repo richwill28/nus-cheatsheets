@@ -34,10 +34,16 @@ class List {
         bool empty() { return _size == 0; }
         void reverseOp();
 
-        // .. except for the following functions, we can assume that the list is not empty when you call them.
+        // ...except for the following functions, we can assume that the list is not empty when you call them
         T headItem();
         T extractMax();
         void removeHead();
+
+        // simple iterator
+        void start() { _current = _head; }
+        T current() { if (_current) return _current->_item; }
+        void next() { if (_current) _current = _current->_next; }
+        bool end() { return _current == NULL; }
 };
 
 #include "simpleLinkedListTemplate.cpp"
