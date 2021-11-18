@@ -111,9 +111,9 @@ void Heap<T>::printHeapArray() {
 
 template <class T>
 int Heap<T>::_lookFor(T x) {
-    // not a very good implementation, but just use this for now.
+    // not a very good implementation, but just use this for now
     int i;
-    for(i = 0; i < _n; i++) {
+    for (i = 0; i < _n; i++) {
         if (_heap[i] == x) {
             return i;
         }
@@ -124,6 +124,10 @@ int Heap<T>::_lookFor(T x) {
 template <class T>
 void Heap<T>::decreaseKey(T from, T to) {
     int index = _lookFor(from);
+    if (index == -1) {
+        return;
+    }
+
     _heap[index] = to;
     _bubbleDown(index);
 }
@@ -131,6 +135,10 @@ void Heap<T>::decreaseKey(T from, T to) {
 template <class T>
 void Heap<T>::increaseKey(T from, T to) {
     int index = _lookFor(from);
+    if (index == -1) {
+        return;
+    }
+
     _heap[index] = to;
     _bubbleUp(index);
 }
@@ -138,6 +146,10 @@ void Heap<T>::increaseKey(T from, T to) {
 template <class T>
 void Heap<T>::deleteItem(T x) {
     int index = _lookFor(x);
+    if (index == -1) {
+        return;
+    }
+
     swap(_heap[index], _heap[_n - 1]);
     _n--;
     _bubbleUp(index);
