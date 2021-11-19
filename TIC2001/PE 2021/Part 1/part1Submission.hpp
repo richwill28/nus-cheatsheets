@@ -6,7 +6,7 @@ using namespace std;
 
 template <class T>
 T& List<T>::operator[](int idx) {
-    if (idx >= _size) {
+    if (idx < 0 || idx >= _size) {
         cout << "Index out of bound error (operator[])" << endl;
         exit(1);    // not the best practice, we often call this overreacting
     }
