@@ -27,7 +27,7 @@ I majored in Computer Engineering from AY2020/2021. Here are all the modules tha
   | CP2106 | Independent Software Development Project (Orbital) | AY20/21 Special Sem | ★★★★★☆☆☆☆☆ | 5/10 |
   | CFG1002 | Career Catalyst | AY21/22 Sem 1 | ★★★★★★☆☆☆☆ | 6/10 |
   | CG2027 | Transistor-level Digital Circuits | AY21/22 Sem 1 | ★★★☆☆☆☆☆☆☆ | [3/10](https://github.com/richwill28/NUS-Resources/tree/main/CG2027) |
-  | CG2028 | Computer Organization | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
+  | CG2028 | Computer Organization | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | [5/10](https://github.com/richwill28/NUS-Resources/tree/main/CG2028) |
   | CS2101 | Effective Communication for Computing Professionals | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
   | CS2113T | Software Engineering & Object-Oriented Programming | AY21/22 Sem 1 | ★★★★★★☆☆☆☆ | [6/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2113T) |
   | ST2334 | Probability & Statistics | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
