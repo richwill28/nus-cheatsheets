@@ -49,7 +49,7 @@ I majored in Computer Engineering from AY2020/2021. Here are all the modules tha
   | EE | 7.00 | 0.00 |
   | GE | 5.50 | 0.71 |
   | MA | 7.00 | 0.00 |
-  | ST | 6.00 | 0.00 |
+  | ST | 5.00 | 0.00 |
 
 - ### Modules that I took as a teaching assistant
 
