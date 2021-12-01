@@ -34,6 +34,13 @@ I majored in Computer Engineering from AY2020/2021. Here are all the modules tha
 
   **Statistics**
 
+  | Semester | Average Score | Standard Deviation |
+  | -------- | ------------- | ------------------ |
+  | Y1S1 (AY20/21 SEM 1) | 6.50 | 1.52 |
+  | Y1S1 (AY20/21 SEM 2) | 5.83 | 1.94 |
+  | Y2S1 (AY21/22 SEM 1) | 4.80 | 1.10 |
+  | Y2S2 (AY21/22 SEM 2) |  |  |
+
   | Module Department | Average Score | Standard Deviation |
   | ----------------- | -------------- | ------------------ |
   | CELC | 4.50 | 0.71 |
