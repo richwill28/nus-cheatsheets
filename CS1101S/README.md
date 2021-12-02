@@ -1,6 +1,6 @@
 ## CS1101S Programming Methodology
 
-**AY20/21 SEM 1, taught by Prof. Martin Henz & Prof. Low Kok Lim.**
+**AY20/21 SEM 1, taught by Prof. Martin Henz & Prof. Low Kok Lim**
 
 The content of this module is based on [SICP (Structure and Interpretation of Computer Programs)](https://mitpress.mit.edu/sites/default/files/sicp/index.html), but [adapted to JavaScript](https://sicp.sourceacademy.org/). The topics are divided into 4 main sections, namely functions (abstraction, recursion, higher-order, substitution model), data (pairs, lists, trees), state (mutation, loops and arrays, environment model), and beyond (streams, meta-circular evaluator).
 

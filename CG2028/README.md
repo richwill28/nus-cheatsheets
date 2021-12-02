@@ -1,6 +1,6 @@
 ## CG2028 Computer Organization
 
-**AY21/22 SEM 1, taught by Prof. Henry Tan & Prof. Rajesh Panicker.**
+**AY21/22 SEM 1, taught by Prof. Henry Tan & Prof. Rajesh Panicker**
 
 The topics covered in this module are Microprocessor Concepts, ARM Instruction Sets, Single Cycle Processor Design, Cache Memory Principle, and Pipelining Basics.
 

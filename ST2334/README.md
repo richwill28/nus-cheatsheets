@@ -1,6 +1,6 @@
 ## ST2334 Probability and Statistics
 
-**AY21/22 SEM 1, taught by Prof. Chan Yiu Man & Prof. Li Jialiang.**
+**AY21/22 SEM 1, taught by Prof. Chan Yiu Man & Prof. Li Jialiang**
 
 Topics include basic concepts of probability, conditional probability, independence, random variables, joint and marginal distributions, mean and variance, some common probability distributions, sampling distributions, estimation and hypothesis testing based on a normal population.
 

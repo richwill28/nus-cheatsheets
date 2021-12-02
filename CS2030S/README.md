@@ -1,6 +1,6 @@
 ## CS2030S Programming Methodology II
 
-**AY20/21 SEM 2, taught by Prof. Ooi Wei Tsang.**
+**AY20/21 SEM 2, taught by Prof. Ooi Wei Tsang**
 
 A great module that explores two modern programming paradigms, object-oriented programming and functional programming (mostly the former). This module was taught in Java, but it is not about learning how to code in Java. It teaches students how to write "good" code (e.g., readable, understandable, flexible, scalable, etc.). Topics included in this module are encapsulation, composition, inheritance, polymorphism, abstract class, interface, generics, wildcards, immutability, lazy evaluation, stream, monad, asynchronous programming, etc. For more information, visit the [course website](https://nus-cs2030s.github.io/2021-s2/).
 

@@ -1,6 +1,6 @@
 ## CS2106 Introduction to Operating Systems
 
-**AY21/22 SEM 1, taught by Prof. Li Jialin & Prof. Cristina Carbunaru.**
+**AY21/22 SEM 1, taught by Prof. Li Jialin & Prof. Cristina Carbunaru**
 
 This module introduces the basic concepts in operating systems and links it with contemporary operating systems (e.g. Unix/Linux and Windows).
 

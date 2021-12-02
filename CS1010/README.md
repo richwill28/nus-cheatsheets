@@ -1,6 +1,6 @@
 ## CS1010 Programming Methodology
 
-**AY20/21 SEM 1, taught by Prof. Ooi Wei Tsang.**
+**AY20/21 SEM 1, taught by Prof. Ooi Wei Tsang**
 
 A great module that introduces students to the fundamental concepts of problem solving in computing and programming. CS1010 was taught in C and the topics covered include computational thinking and problem solving, functions, types, conditionals, logical expressions, assertion, loops, call stack, memory addresses, array, string, heap, multi-dimensional array, C preprocessor, efficiency, searching and sorting algorithms, recursion (tower of hanoi, permutation, and N-Queens), and struct. For more information, visit the [course website](https://nus-cs1010.github.io/2021-s1/).
 

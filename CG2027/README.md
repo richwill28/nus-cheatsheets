@@ -1,6 +1,6 @@
 ## CG2027 Transistor-level Digital Circuits
 
-**AY21/22 SEM 1, taught by Prof. Kelvin Fong.**
+**AY21/22 SEM 1, taught by Prof. Kelvin Fong**
 
 The content of this module is divided into five main topics, namely semiconductor device, CMOS inverter, CMOS logic, Arithmetic Logic Unit (ALU), and memory.
 

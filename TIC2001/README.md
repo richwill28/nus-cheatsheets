@@ -1,6 +1,6 @@
 ## TIC2001 Data Structures and Algorithms
 
-**AY21/22 SEM 1, taught by Prof. Ho-lun Cheng, Alan.**
+**AY21/22 SEM 1, taught by Prof. Ho-lun Cheng, Alan**
 
 I am a teaching assistant for TIC2001 in AY21/22 SEM 1. In terms of content, TIC2001 = CS2040C - convex hull. Overall quality remains the same, refer to [my review on CS2040C](https://github.com/richwill28/NUS-Resources/tree/main/CS2040C) for more details.
 
