@@ -10,4 +10,4 @@ Lab sessions are useless (basically you meet your teammate on Zoom for 3 hours, 
 
 One more point worth noting is that different GAs graded different teams during the evaluation. From my experience, however, I suspect that the GA that were evaluating my team was not competent enough. I won't share too much details here but basically, the GA did not seem to understand some of the things that we put in our assembly code (albeit they were standard industry practices). Overall, you will definitely learn something new from this module, but don't expect too much. CG2028 has a lot of potential if it is a 4 MC module, where most topics can be treated more comprehensively and more advanced topics can be introduced.
 
-This folder contains a cheatsheet that I made for the final exam. I will remove this folder from my repository if requested by NUS.
+This folder contains my attempt at doing the assignment. Obviously, it is by no means a *model answer*. I also provided a cheatsheet that I made for the final exam. Please use this folder as references and **NOT** as easy solution to the assignment. I will remove this folder from my repository if requested by NUS.
