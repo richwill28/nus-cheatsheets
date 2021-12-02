@@ -2,7 +2,7 @@
     .cpu cortex-m3
     .thumb
     .align 2
-    .global	classification
+    .global classification
     .thumb_func
 
 @ CG2028 Assignment, Sem 1, AY 2021/22
