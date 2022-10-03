@@ -1,76 +1,26 @@
 # NUS Resources
 
-![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg) ![work-in-progress](https://user-images.githubusercontent.com/69445142/133667291-1a66d1a2-2ae0-4ecf-bd64-475bf3c71db4.png) [![license-cc-by-nc-sa-4.0](https://user-images.githubusercontent.com/69445142/133666673-afd82910-7f66-4c86-bc0e-abecbb0e41a3.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg) ![work-in-progress](https://user-images.githubusercontent.com/69445142/133667291-1a66d1a2-2ae0-4ecf-bd64-475bf3c71db4.png)
 
-Some of the works that I have done, and the resources or tools that I used during my undergraduate studies in NUS. Feel free to open issue/PR if you spot any mistake.
+This repository contains some of the resources that I used during my study at NUS.
 
-## Details
+I believe that education should be of high quality. This is especially true in computer science where there are *tons* of things to learn and explore. A good class can make a whole lot of difference, sometimes even life-changing.
 
-I majored in Computer Engineering from AY2020/2021. Here are all the modules that I had studied during my time in NUS.
+So here are some of the modules at NUS that I recommend:
 
-- ### Modules that I took as a regular student
+- **CS1010** or **CS1101S** for an introductory course to computer science.
+  - CS1010 taught by Prof Ooi Wei Tsang was amazing. What makes CS1010 stands out from other intro to CS course is that you will be exposed to pointers and memory addresses, which are ideas that often get abstracted away from beginners, but is very critical in understanding how programs work.
+  - CS1101S is unconventional, but in a good way. It focuses heavily on recursion, and builds up the foundation for functional programming.
+- **CS2040S** taught Prof Seth Gilbert for an intro to algorithms and data structures. It's the best CS2040 variant.
+- **EE2026**, which you might want to consider taking. It's EE-coded but it's very much a CS module.
+  - It introduces digital logic and circuits which are the building blocks of modern digital systems like computers.
+  - You will be coding in Verilog (a Hardware Description Language), and running your codes on an FPGA.
+- **CS2106** to learn the basics of operating systems.
+  - It's a difficult course but a very rewarding one. If possible, take it when Prof Cristina is teaching. The ideas covered are very much relevant no matter what sub-fields of computer science you are specializing in.
+  - For CEG students, CG2271 is not a replacement for CS2106. Please take CS2106 to fully appreciate operating systems.
+- **CS3245** is a course on information retrieval.
+  - You get to implement your own toy search engine, fun stuff.
+- **CS3210** to learn parallel computing.
+  - A very important and eye-opening CS course, taught by Prof Cristina who is one of the nicest prof around.
 
-  | Module      | Description | Academic Year | Rating | Score |
-  | ----------- | ----------- | ------------- | ------ | ------- |
-  | CG1111 | Engineering Principles and Practice 1 | AY20/21 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
-  | CS1010 | Programming Methodology | AY20/21 Sem 1 | ★★★★★★★★★☆ | [9/10](https://github.com/richwill28/NUS-Resources/tree/main/CS1010) |
-  | CS1231 | Discrete Structures | AY20/21 Sem 1 | ★★★★★★☆☆☆☆ | 6/10 |
-  | GER1000 | Quantitative Reasoning | AY20/21 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
-  | MA1511 | Engineering Calculus | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
-  | MA1512 | Differential Equations for Engineering | AY20/21 Sem 1 | ★★★★★★★☆☆☆ | 7/10 |
-  | CG1112 | Engineering Principles and Practice 2 | AY20/21 Sem 2 | ★★★☆☆☆☆☆☆☆ | 3/10 |
-  | CS2040C | Data Structures and Algorithms | AY20/21 Sem 2 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2040C) |
-  | EE2026 | Digital Design | AY20/21 Sem 2 | ★★★★★★★☆☆☆ | 7/10 |
-  | ES1103 | English for Academic Purposes | AY20/21 Sem 2 | ★★★★☆☆☆☆☆☆ | 4/10 |
-  | GEQ1000 | Asking Questions | AY20/21 Sem 2 | ★★★★★★☆☆☆☆ | 6/10 |
-  | MA1508E | Linear Algebra for Engineering | AY20/21 Sem 2 | ★★★★★★★☆☆☆ | 7/10 |
-  | CP2106 | Independent Software Development Project (Orbital) | AY20/21 Special Sem | ★★★★★☆☆☆☆☆ | 5/10 |
-  | CFG1002 | Career Catalyst | AY21/22 Sem 1 | ★★★★★★☆☆☆☆ | 6/10 |
-  | CG2027 | Transistor-level Digital Circuits | AY21/22 Sem 1 | ★★★☆☆☆☆☆☆☆ | [3/10](https://github.com/richwill28/NUS-Resources/tree/main/CG2027) |
-  | CG2028 | Computer Organization | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | [5/10](https://github.com/richwill28/NUS-Resources/tree/main/CG2028) |
-  | CS2101 | Effective Communication for Computing Professionals | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | 5/10 |
-  | CS2113T | Software Engineering & Object-Oriented Programming | AY21/22 Sem 1 | ★★★★★★☆☆☆☆ | [6/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2113T) |
-  | ST2334 | Probability & Statistics | AY21/22 Sem 1 | ★★★★★☆☆☆☆☆ | [5/10](https://github.com/richwill28/NUS-Resources/tree/main/ST2334) |
-
-  **Statistics**
-
-  | Semester | Average Score | Standard Deviation |
-  | -------- | ------------- | ------------------ |
-  | Y1S1 (AY20/21 SEM 1) | 6.50 | 1.52 |
-  | Y1S1 (AY20/21 SEM 2) | 5.83 | 1.94 |
-  | Y2S1 (AY21/22 SEM 1) | 4.80 | 1.10 |
-  | Y2S2 (AY21/22 SEM 2) |  |  |
-
-  | Module Department | Average Score | Standard Deviation |
-  | ----------------- | -------------- | ------------------ |
-  | CELC | 4.50 | 0.71 |
-  | CS | 7.25 | 1.50 |
-  | CG | 4.00 | 1.15 |
-  | EE | 7.00 | 0.00 |
-  | GE | 5.50 | 0.71 |
-  | MA | 7.00 | 0.00 |
-  | ST | 5.00 | 0.00 |
-
-- ### Modules that I took as a teaching assistant
-
-  | Module      | Description | Academic Year | Rating | Score |
-  | ----------- | ----------- | ------------- | ------ | ------- |
-  | TIC2001 | Data Structures and Algorithms | AY21/22 Sem 1 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/TIC2001) |
-
-- ### Modules that I took as a guest student
-
-  | Module      | Description | Academic Year | Rating | Score |
-  | ----------- | ----------- | ------------- | ------ | ------- |
-  | CS2105 | Introduction to Computer Networks | AY21/22 Sem 1 |  |  |
-  | CS2106 | Introduction to Operating Systems | AY21/22 Sem 1 |  |  |
-
-- ### Modules that I read by myself
-
-  | Module      | Description | Academic Year | Rating | Score |
-  | ----------- | ----------- | ------------- | ------ | ------- |
-  | CS1101S | Programming Methodology | AY20/21 Sem 1 | ★★★★★★★★★☆ | [9/10](https://github.com/richwill28/NUS-Resources/tree/main/CS1101S) |
-  | CS2030S | Programming Methodology II | AY20/21 Sem 2 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2030S) |
-  | CS2040S | Data Structures and Algorithms | AY20/21 Sem 2 | ★★★★★★★★☆☆ | [8/10](https://github.com/richwill28/NUS-Resources/tree/main/CS2040S) |
-  | CS2100 | Computer Organisation | AY20/21 Sem 1 |  |  |
-
-Note: The rating indicates the overall quality (i.e., how well it was taught) and practicality (i.e., how much I benefited from it). This is based solely on my opinion when I took the module, your situation might be different. [For more information](https://github.com/richwill28/NUS-Resources/blob/main/RATING.md).
+Please feel free to approach me if you have any questions!
