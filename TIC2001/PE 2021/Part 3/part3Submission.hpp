@@ -60,6 +60,8 @@ void HashTable::resize(int newSize) {
             insert(temp[i]);
         }
     }
+
+    delete[] temp;
 }
 
 // O(n^2) implementation
