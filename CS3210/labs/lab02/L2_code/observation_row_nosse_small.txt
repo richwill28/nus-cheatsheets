@@ -1,0 +1,133 @@
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 64 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 64 using 1 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 64 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 64 using 1 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 64 using 1 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 64 1' (5 runs):
+
+              1.66 msec task-clock                #    0.922 CPUs utilized            ( +-  0.65% )
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                95      page-faults               #    0.057 M/sec                    ( +-  0.53% )
+         6,806,495      cycles                    #    4.099 GHz                      ( +-  1.01% )  (78.63%)
+        17,525,273      instructions              #    2.57  insn per cycle           ( +-  0.01% )
+           929,563      branches                  #  559.807 M/sec                    ( +-  0.02% )
+            14,952      branch-misses             #    1.61% of all branches          ( +-  0.25% )
+         8,441,885      L1-dcache-loads           # 5083.924 M/sec                    ( +-  0.00% )
+            25,612      L1-dcache-load-misses     #    0.30% of all L1-dcache hits    ( +- 78.95% )  (21.37%)
+     <not counted>      LLC-loads                                                     (0.00%)
+     <not counted>      LLC-load-misses                                               (0.00%)
+   <not supported>      L1-icache-loads                                             
+     <not counted>      L1-icache-load-misses                                         (0.00%)
+     <not counted>      dTLB-loads                                                    (0.00%)
+     <not counted>      dTLB-load-misses                                              (0.00%)
+     <not counted>      iTLB-loads                                                    (0.00%)
+     <not counted>      iTLB-load-misses                                              (0.00%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+         0.0018018 +- 0.0000283 seconds time elapsed  ( +-  1.57% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 128 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 128 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 128 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 128 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 128 using 1 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 128 1' (5 runs):
+
+             11.07 msec task-clock                #    0.986 CPUs utilized            ( +-  1.72% )
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               132      page-faults               #    0.012 M/sec                    ( +-  0.24% )
+        43,158,505      cycles                    #    3.900 GHz                      ( +-  0.36% )  (28.74%)
+       126,955,758      instructions              #    2.94  insn per cycle           ( +-  0.21% )  (64.87%)
+         5,083,929      branches                  #  459.388 M/sec                    ( +-  0.05% )  (99.01%)
+            28,436      branch-misses             #    0.56% of all branches          ( +-  0.60% )
+        64,263,190      L1-dcache-loads           # 5806.876 M/sec                    ( +-  0.00% )
+           150,577      L1-dcache-load-misses     #    0.23% of all L1-dcache hits    ( +-  0.06% )  (71.26%)
+     <not counted>      LLC-loads                                                     ( +-100.00% )  (0.99%)
+     <not counted>      LLC-load-misses                                               (0.00%)
+   <not supported>      L1-icache-loads                                             
+     <not counted>      L1-icache-load-misses                                         (0.00%)
+     <not counted>      dTLB-loads                                                    (0.00%)
+     <not counted>      dTLB-load-misses                                              (0.00%)
+     <not counted>      iTLB-loads                                                    (0.00%)
+     <not counted>      iTLB-load-misses                                              (0.00%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+          0.011226 +- 0.000188 seconds time elapsed  ( +-  1.68% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 256 using 1 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 256 using 1 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 256 using 1 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 256 using 1 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 256 using 1 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 256 1' (5 runs):
+
+             79.51 msec task-clock                #    0.998 CPUs utilized            ( +-  0.57% )
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               279      page-faults               #    0.004 M/sec                    ( +-  0.20% )
+       329,705,998      cycles                    #    4.147 GHz                      ( +-  0.82% )  (22.85%)
+       997,243,194      instructions              #    3.02  insn per cycle           ( +-  0.62% )  (32.91%)
+        39,451,254      branches                  #  496.182 M/sec                    ( +-  0.57% )  (37.95%)
+            99,009      branch-misses             #    0.25% of all branches          ( +-  0.88% )  (42.98%)
+       501,022,608      L1-dcache-loads           # 6301.409 M/sec                    ( +-  0.08% )  (48.01%)
+         1,104,693      L1-dcache-load-misses     #    0.22% of all L1-dcache hits    ( +-  0.45% )  (50.31%)
+            37,766      LLC-loads                 #    0.475 M/sec                    ( +-  5.06% )  (39.87%)
+               106      LLC-load-misses           #    0.28% of all LL-cache hits     ( +- 49.56% )  (36.90%)
+   <not supported>      L1-icache-loads                                             
+            25,249      L1-icache-load-misses                                         ( +-  2.70% )  (31.87%)
+       512,437,381      dTLB-loads                # 6444.974 M/sec                    ( +-  0.25% )  (26.84%)
+               382      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +- 36.70% )  (22.18%)
+               153      iTLB-loads                #    0.002 M/sec                    ( +- 16.86% )  (20.12%)
+                 6      iTLB-load-misses          #    4.18% of all iTLB cache hits   ( +- 37.17% )  (20.12%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+          0.079673 +- 0.000482 seconds time elapsed  ( +-  0.60% )
+

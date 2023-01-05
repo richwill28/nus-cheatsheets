@@ -1,0 +1,270 @@
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 6.29 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 6.32 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 6.28 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 6.28 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 6.32 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 1' (5 runs):
+
+          6,315.27 msec task-clock                #    1.000 CPUs utilized            ( +-  0.14% )
+                22      context-switches          #    0.003 K/sec                    ( +-  5.31% )
+                 1      cpu-migrations            #    0.000 K/sec                    ( +- 66.67% )
+             3,176      page-faults               #    0.503 K/sec                    ( +-  0.01% )
+    26,341,547,341      cycles                    #    4.171 GHz                      ( +-  0.13% )
+    63,578,563,891      instructions              #    2.41  insn per cycle           ( +-  0.00% )
+     2,189,573,674      branches                  #  346.711 M/sec                    ( +-  0.00% )
+         1,178,227      branch-misses             #    0.05% of all branches          ( +-  0.06% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  340.046 M/sec                  
+
+           6.31594 +- 0.00889 seconds time elapsed  ( +-  0.14% )
+
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 3.25 seconds
+Matrix multiplication took 3.19 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 3.26 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 3.25 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 3.20 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 2' (5 runs):
+
+          6,507.03 msec task-clock                #    1.992 CPUs utilized            ( +-  0.45% )
+                18      context-switches          #    0.003 K/sec                    ( +- 11.97% )
+                 0      cpu-migrations            #    0.000 K/sec                  
+             3,178      page-faults               #    0.488 K/sec                    ( +-  0.02% )
+    26,554,855,069      cycles                    #    4.081 GHz                      ( +-  0.38% )
+    63,591,943,516      instructions              #    2.39  insn per cycle           ( +-  0.00% )
+     2,194,618,807      branches                  #  337.269 M/sec                    ( +-  0.00% )
+         1,179,985      branch-misses             #    0.05% of all branches          ( +-  0.10% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  330.025 M/sec                  
+
+            3.2662 +- 0.0145 seconds time elapsed  ( +-  0.45% )
+
+Matrix multiplication took 1.69 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 1.64 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 1.62 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 1.67 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 1.66 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 4' (5 runs):
+
+          6,677.97 msec task-clock                #    3.947 CPUs utilized            ( +-  0.64% )
+                26      context-switches          #    0.004 K/sec                    ( +- 10.25% )
+                 1      cpu-migrations            #    0.000 K/sec                    ( +- 40.82% )
+             3,183      page-faults               #    0.477 K/sec                    ( +-  0.02% )
+    26,660,813,920      cycles                    #    3.992 GHz                      ( +-  0.65% )
+    63,599,178,738      instructions              #    2.39  insn per cycle           ( +-  0.00% )
+     2,196,676,809      branches                  #  328.944 M/sec                    ( +-  0.02% )
+         1,184,653      branch-misses             #    0.05% of all branches          ( +-  0.21% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  321.577 M/sec                  
+
+            1.6918 +- 0.0116 seconds time elapsed  ( +-  0.69% )
+
+Matrix multiplication took 1.69 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 1.64 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 1.64 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 1.71 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 1.68 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 8' (5 runs):
+
+         13,328.84 msec task-clock                #    7.779 CPUs utilized            ( +-  0.50% )
+             1,042      context-switches          #    0.078 K/sec                    ( +- 52.81% )
+                 4      cpu-migrations            #    0.000 K/sec                    ( +- 28.10% )
+             3,191      page-faults               #    0.239 K/sec                    ( +-  0.01% )
+    53,197,295,564      cycles                    #    3.991 GHz                      ( +-  0.49% )
+    63,639,464,469      instructions              #    1.20  insn per cycle           ( +-  0.01% )
+     2,206,809,142      branches                  #  165.567 M/sec                    ( +-  0.06% )
+         1,279,922      branch-misses             #    0.06% of all branches          ( +-  3.01% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  161.116 M/sec                  
+
+            1.7134 +- 0.0147 seconds time elapsed  ( +-  0.86% )
+
+Matrix multiplication took 1.73 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 1.74 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 1.74 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 1.72 seconds
+Matrix multiplication took 1.75 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 16' (5 runs):
+
+         13,739.71 msec task-clock                #    7.748 CPUs utilized            ( +-  0.23% )
+               952      context-switches          #    0.069 K/sec                    ( +-  3.29% )
+                50      cpu-migrations            #    0.004 K/sec                    ( +- 15.23% )
+             3,208      page-faults               #    0.233 K/sec                    ( +-  0.01% )
+    54,842,041,354      cycles                    #    3.991 GHz                      ( +-  0.23% )
+    63,602,284,606      instructions              #    1.16  insn per cycle           ( +-  0.00% )
+     2,196,264,941      branches                  #  159.848 M/sec                    ( +-  0.00% )
+         1,242,691      branch-misses             #    0.06% of all branches          ( +-  0.32% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  156.298 M/sec                  
+
+           1.77322 +- 0.00421 seconds time elapsed  ( +-  0.24% )
+
+Matrix multiplication took 1.72 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 1.74 seconds
+Matrix multiplication took 1.73 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 1.72 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 1.76 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 32' (5 runs):
+
+         13,788.13 msec task-clock                #    7.798 CPUs utilized            ( +-  0.34% )
+             1,899      context-switches          #    0.138 K/sec                    ( +-  5.34% )
+               104      cpu-migrations            #    0.008 K/sec                    ( +- 12.33% )
+             3,242      page-faults               #    0.235 K/sec                    ( +-  0.01% )
+    55,029,190,777      cycles                    #    3.991 GHz                      ( +-  0.34% )
+    63,607,159,593      instructions              #    1.16  insn per cycle           ( +-  0.00% )
+     2,197,285,679      branches                  #  159.361 M/sec                    ( +-  0.01% )
+         1,265,772      branch-misses             #    0.06% of all branches          ( +-  0.44% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  155.749 M/sec                  
+
+           1.76810 +- 0.00698 seconds time elapsed  ( +-  0.39% )
+
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Matrix multiplication took 1.73 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Matrix multiplication took 1.74 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Matrix multiplication took 1.71 seconds
+Matrix multiplication took 1.73 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Matrix multiplication took 1.71 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 64' (5 runs):
+
+         13,748.23 msec task-clock                #    7.798 CPUs utilized            ( +-  0.32% )
+             4,344      context-switches          #    0.316 K/sec                    ( +- 14.56% )
+               222      cpu-migrations            #    0.016 K/sec                    ( +-  5.50% )
+             3,310      page-faults               #    0.241 K/sec                    ( +-  0.01% )
+    54,861,786,763      cycles                    #    3.990 GHz                      ( +-  0.32% )
+    63,620,432,489      instructions              #    1.16  insn per cycle           ( +-  0.01% )
+     2,200,091,690      branches                  #  160.027 M/sec                    ( +-  0.04% )
+         1,354,460      branch-misses             #    0.06% of all branches          ( +-  3.19% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  156.201 M/sec                  
+
+           1.76311 +- 0.00638 seconds time elapsed  ( +-  0.36% )
+
+Matrix multiplication took 1.71 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Matrix multiplication took 1.71 seconds
+Matrix multiplication took 1.70 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Matrix multiplication took 1.70 seconds
+Matrix multiplication took 1.79 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 128' (5 runs):
+
+         13,728.72 msec task-clock                #    7.795 CPUs utilized            ( +-  0.80% )
+             4,697      context-switches          #    0.342 K/sec                    ( +-  8.98% )
+               362      cpu-migrations            #    0.026 K/sec                    ( +-  6.09% )
+             3,447      page-faults               #    0.251 K/sec                    ( +-  0.01% )
+    54,782,163,830      cycles                    #    3.990 GHz                      ( +-  0.80% )
+    63,627,862,039      instructions              #    1.16  insn per cycle           ( +-  0.00% )
+     2,201,605,102      branches                  #  160.365 M/sec                    ( +-  0.03% )
+         1,375,160      branch-misses             #    0.06% of all branches          ( +-  2.58% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  156.423 M/sec                  
+
+            1.7613 +- 0.0172 seconds time elapsed  ( +-  0.98% )
+
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 1.71 seconds
+Matrix multiplication took 1.75 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 1.69 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 1.71 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 1.72 seconds
+Usage: /home/richwill/mm1_job//mm1.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1.out 1024 256' (5 runs):
+
+         13,696.37 msec task-clock                #    7.782 CPUs utilized            ( +-  0.64% )
+             5,236      context-switches          #    0.382 K/sec                    ( +-  5.99% )
+               756      cpu-migrations            #    0.055 K/sec                    ( +-  3.42% )
+             3,724      page-faults               #    0.272 K/sec                    ( +-  0.01% )
+    54,649,038,063      cycles                    #    3.990 GHz                      ( +-  0.64% )
+    63,643,416,370      instructions              #    1.16  insn per cycle           ( +-  0.00% )
+     2,204,761,239      branches                  #  160.974 M/sec                    ( +-  0.02% )
+         1,425,864      branch-misses             #    0.06% of all branches          ( +-  1.83% )
+     2,147,483,649      fp_arith_inst_retired.scalar_single #  156.792 M/sec                    ( +-  0.00% )
+
+           1.76004 +- 0.00995 seconds time elapsed  ( +-  0.57% )
+

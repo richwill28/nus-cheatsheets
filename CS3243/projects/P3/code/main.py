@@ -1,0 +1,32 @@
+from AB import studentAgent
+
+print(studentAgent({
+    ("a", 1): ("Ferz", "White"),
+    ("a", 5): ("Ferz", "Black"),
+    ("g", 1): ("Ferz", "White"),
+    ("g", 5): ("Ferz", "Black"),
+    ("b", 1): ("Pawn", "White"),
+    ("b", 5): ("Pawn", "Black"),
+    ("c", 1): ("Pawn", "White"),
+    ("c", 5): ("Pawn", "Black"),
+    ("d", 1): ("Pawn", "White"),
+    ("d", 5): ("Pawn", "Black"),
+    ("e", 1): ("Pawn", "White"),
+    ("e", 5): ("Pawn", "Black"),
+    ("f", 1): ("Pawn", "White"),
+    ("f", 5): ("Pawn", "Black"),
+    ("a", 0): ("Knight", "White"),
+    ("a", 6): ("Knight", "Black"),
+    ("b", 0): ("Bishop", "White"),
+    ("b", 6): ("Bishop", "Black"),
+    ("c", 0): ("Queen", "White"),
+    ("c", 6): ("Queen", "Black"),
+    ("d", 0): ("King", "White"),
+    ("d", 6): ("King", "Black"),
+    ("e", 0): ("Princess", "White"),
+    ("e", 6): ("Princess", "Black"),
+    ("f", 0): ("Empress", "White"),
+    ("f", 6): ("Empress", "Black"),
+    ("g", 0): ("Rook", "White"),
+    ("g", 6): ("Rook", "Black")
+}))

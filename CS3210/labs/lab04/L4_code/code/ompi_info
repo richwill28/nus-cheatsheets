@@ -1,0 +1,205 @@
+                 Package: Debian OpenMPI
+                Open MPI: 4.0.3
+  Open MPI repo revision: v4.0.3
+   Open MPI release date: Mar 03, 2020
+                Open RTE: 4.0.3
+  Open RTE repo revision: v4.0.3
+   Open RTE release date: Mar 03, 2020
+                    OPAL: 4.0.3
+      OPAL repo revision: v4.0.3
+       OPAL release date: Mar 03, 2020
+                 MPI API: 3.1.0
+            Ident string: 4.0.3
+                  Prefix: /usr
+ Configured architecture: x86_64-pc-linux-gnu
+          Configure host: lcy01-amd64-020
+           Configured by: buildd
+           Configured on: Wed Apr 15 13:14:35 UTC 2020
+          Configure host: lcy01-amd64-020
+  Configure command line: '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--disable-silent-rules' '--disable-wrapper-runpath' '--with-package-string=Debian OpenMPI' '--with-verbs' '--with-libfabric' '--with-psm2' '--with-jdk-dir=/usr/lib/jvm/default-java' '--enable-mpi-java' '--enable-opal-btl-usnic-unit-tests' '--with-libevent=external' '--with-pmix=/usr/lib/x86_64-linux-gnu/pmix' '--disable-silent-rules' '--enable-mpi-cxx' '--with-hwloc=/usr' '--with-libltdl' '--with-devel-headers' '--with-slurm' '--with-sge' '--without-tm' '--sysconfdir=/etc/openmpi' '--libdir=${prefix}/lib/x86_64-linux-gnu/openmpi/lib' '--includedir=${prefix}/lib/x86_64-linux-gnu/openmpi/include'
+                Built by: buildd
+                Built on: Wed Apr 15 13:20:16 UTC 2020
+              Built host: lcy01-amd64-020
+              C bindings: yes
+            C++ bindings: yes
+             Fort mpif.h: yes (all)
+            Fort use mpi: yes (full: ignore TKR)
+       Fort use mpi size: deprecated-ompi-info-value
+        Fort use mpi_f08: yes
+ Fort mpi_f08 compliance: The mpi_f08 module is available, but due to limitations in the gfortran compiler and/or Open MPI, does not support the following: array subsections, direct passthru (where possible) to underlying Open MPI's C functionality
+  Fort mpi_f08 subarrays: no
+           Java bindings: yes
+  Wrapper compiler rpath: rpath
+              C compiler: gcc
+     C compiler absolute: /usr/bin/gcc
+  C compiler family name: GNU
+      C compiler version: 9.3.0
+            C++ compiler: g++
+   C++ compiler absolute: /usr/bin/g++
+           Fort compiler: gfortran
+       Fort compiler abs: /usr/bin/gfortran
+         Fort ignore TKR: yes (!GCC$ ATTRIBUTES NO_ARG_CHECK ::)
+   Fort 08 assumed shape: yes
+      Fort optional args: yes
+          Fort INTERFACE: yes
+    Fort ISO_FORTRAN_ENV: yes
+       Fort STORAGE_SIZE: yes
+      Fort BIND(C) (all): yes
+      Fort ISO_C_BINDING: yes
+ Fort SUBROUTINE BIND(C): yes
+       Fort TYPE,BIND(C): yes
+ Fort T,BIND(C,name="a"): yes
+            Fort PRIVATE: yes
+          Fort PROTECTED: yes
+           Fort ABSTRACT: yes
+       Fort ASYNCHRONOUS: yes
+          Fort PROCEDURE: yes
+         Fort USE...ONLY: yes
+           Fort C_FUNLOC: yes
+ Fort f08 using wrappers: yes
+         Fort MPI_SIZEOF: yes
+             C profiling: yes
+           C++ profiling: yes
+   Fort mpif.h profiling: yes
+  Fort use mpi profiling: yes
+   Fort use mpi_f08 prof: yes
+          C++ exceptions: no
+          Thread support: posix (MPI_THREAD_MULTIPLE: yes, OPAL support: yes, OMPI progress: no, ORTE progress: yes, Event lib: yes)
+           Sparse Groups: no
+  Internal debug support: no
+  MPI interface warnings: yes
+     MPI parameter check: runtime
+Memory profiling support: no
+Memory debugging support: no
+              dl support: yes
+   Heterogeneous support: no
+ mpirun default --prefix: no
+       MPI_WTIME support: native
+     Symbol vis. support: yes
+   Host topology support: yes
+            IPv6 support: no
+      MPI1 compatibility: no
+          MPI extensions: affinity, cuda, pcollreq
+   FT Checkpoint support: no (checkpoint thread: no)
+   C/R Enabled Debugging: no
+  MPI_MAX_PROCESSOR_NAME: 256
+    MPI_MAX_ERROR_STRING: 256
+     MPI_MAX_OBJECT_NAME: 64
+        MPI_MAX_INFO_KEY: 36
+        MPI_MAX_INFO_VAL: 256
+       MPI_MAX_PORT_NAME: 1024
+  MPI_MAX_DATAREP_STRING: 128
+           MCA allocator: basic (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+           MCA allocator: bucket (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+           MCA backtrace: execinfo (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA btl: vader (MCA v2.1.0, API v3.1.0, Component v4.0.3)
+                 MCA btl: openib (MCA v2.1.0, API v3.1.0, Component v4.0.3)
+                 MCA btl: self (MCA v2.1.0, API v3.1.0, Component v4.0.3)
+                 MCA btl: tcp (MCA v2.1.0, API v3.1.0, Component v4.0.3)
+            MCA compress: gzip (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+            MCA compress: bzip (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA crs: none (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                  MCA dl: dlopen (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA event: external (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA hwloc: external (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                  MCA if: linux_ipv6 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                  MCA if: posix_ipv4 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+         MCA installdirs: env (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+         MCA installdirs: config (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+              MCA memory: patcher (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA mpool: hugepage (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+             MCA patcher: overwrite (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+                MCA pmix: ext3x (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA pmix: flux (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA pmix: isolated (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA pstat: linux (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+              MCA rcache: grdma (MCA v2.1.0, API v3.3.0, Component v4.0.3)
+           MCA reachable: weighted (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+           MCA reachable: netlink (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA shmem: mmap (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA shmem: posix (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA shmem: sysv (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA timer: linux (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+              MCA errmgr: default_app (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+              MCA errmgr: default_orted (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+              MCA errmgr: default_tool (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+              MCA errmgr: default_hnp (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA ess: pmi (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA ess: tool (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA ess: hnp (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA ess: env (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA ess: slurm (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA ess: singleton (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+               MCA filem: raw (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+             MCA grpcomm: direct (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA iof: orted (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA iof: tool (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA iof: hnp (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA odls: pspawn (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA odls: default (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA oob: tcp (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA plm: slurm (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA plm: rsh (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA plm: isolated (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA ras: slurm (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA ras: gridengine (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA ras: simulator (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA regx: reverse (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+                MCA regx: fwd (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+                MCA regx: naive (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA rmaps: rank_file (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA rmaps: resilient (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA rmaps: ppr (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA rmaps: mindist (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA rmaps: round_robin (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA rmaps: seq (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA rml: oob (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+              MCA routed: binomial (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+              MCA routed: radix (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+              MCA routed: direct (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA rtc: hwloc (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+              MCA schizo: orte (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+              MCA schizo: ompi (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+              MCA schizo: flux (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+              MCA schizo: slurm (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA state: novm (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA state: orted (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA state: tool (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA state: app (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+               MCA state: hnp (MCA v2.1.0, API v1.0.0, Component v4.0.3)
+                 MCA bml: r2 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: inter (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: monitoring (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: basic (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: sm (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: sync (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: libnbc (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: self (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA coll: tuned (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA fbtl: posix (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA fcoll: two_phase (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA fcoll: dynamic_gen2 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA fcoll: dynamic (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA fcoll: vulcan (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+               MCA fcoll: individual (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                  MCA fs: ufs (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                  MCA io: ompio (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                  MCA io: romio321 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA mtl: ofi (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA mtl: psm2 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA mtl: psm (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA osc: rdma (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA osc: sm (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA osc: pt2pt (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA osc: monitoring (MCA v2.1.0, API v3.0.0, Component v4.0.3)
+                 MCA pml: v (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA pml: monitoring (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA pml: cm (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA pml: ob1 (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                 MCA rte: orte (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+            MCA sharedfp: individual (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+            MCA sharedfp: sm (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+            MCA sharedfp: lockedfile (MCA v2.1.0, API v2.0.0, Component v4.0.3)
+                MCA topo: treematch (MCA v2.1.0, API v2.2.0, Component v4.0.3)
+                MCA topo: basic (MCA v2.1.0, API v2.2.0, Component v4.0.3)
+           MCA vprotocol: pessimist (MCA v2.1.0, API v2.0.0, Component v4.0.3)

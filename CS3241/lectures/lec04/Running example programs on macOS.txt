@@ -1,0 +1,7 @@
+Running example programs on macOS
+
+If you want to run the given example programs on macOS, you can follow the instructions given at the following link to build your macOS executables using Xcode:
+
+https://web.eecs.umich.edu/~sugih/courses/eecs487/glut-howto/#mac
+
+Pay attention to the subsection "Xcode 5.1.1 or 4.2.1 project...".

@@ -1,0 +1,4 @@
+rank 0=soctf-pdc-001 slot=0:0
+rank 1=soctf-pdc-001 slot=0:1
+rank 2=soctf-pdc-002 slot=0:0
+rank 3=soctf-pdc-002 slot=0:1

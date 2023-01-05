@@ -1,0 +1,369 @@
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 1 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 1' (5 runs):
+
+          4,958.55 msec task-clock                #    1.000 CPUs utilized            ( +-  0.05% )
+                17      context-switches          #    0.003 K/sec                    ( +-  7.62% )
+                 0      cpu-migrations            #    0.000 K/sec                  
+             3,176      page-faults               #    0.641 K/sec                    ( +-  0.02% )
+    20,667,202,223      cycles                    #    4.168 GHz                      ( +-  0.03% )  (30.69%)
+    63,556,877,725      instructions              #    3.08  insn per cycle           ( +-  0.02% )  (38.43%)
+     2,190,830,889      branches                  #  441.829 M/sec                    ( +-  0.10% )  (38.52%)
+         1,248,682      branch-misses             #    0.06% of all branches          ( +-  0.40% )  (38.60%)
+    32,181,279,997      L1-dcache-loads           # 6490.054 M/sec                    ( +-  0.04% )  (38.65%)
+        68,512,094      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  0.10% )  (38.65%)
+         3,528,482      LLC-loads                 #    0.712 M/sec                    ( +-  0.23% )  (30.83%)
+            38,790      LLC-load-misses           #    1.10% of all LL-cache hits     ( +-  4.70% )  (30.75%)
+   <not supported>      L1-icache-loads                                             
+           470,077      L1-icache-load-misses                                         ( +-  3.59% )  (30.70%)
+    32,330,713,529      dTLB-loads                # 6520.191 M/sec                    ( +-  0.02% )  (30.66%)
+            17,160      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  9.11% )  (30.65%)
+             5,721      iTLB-loads                #    0.001 M/sec                    ( +-  9.64% )  (30.65%)
+               147      iTLB-load-misses          #    2.57% of all iTLB cache hits   ( +- 24.35% )  (30.65%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           4.95892 +- 0.00232 seconds time elapsed  ( +-  0.05% )
+
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 2 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 2' (5 runs):
+
+          5,103.82 msec task-clock                #    1.990 CPUs utilized            ( +-  0.19% )
+                17      context-switches          #    0.003 K/sec                    ( +- 17.31% )
+                 0      cpu-migrations            #    0.000 K/sec                    ( +-100.00% )
+             3,178      page-faults               #    0.623 K/sec                    ( +-  0.01% )
+    20,798,713,757      cycles                    #    4.075 GHz                      ( +-  0.08% )  (30.63%)
+    63,635,451,041      instructions              #    3.06  insn per cycle           ( +-  0.09% )  (38.38%)
+     2,176,119,536      branches                  #  426.371 M/sec                    ( +-  0.06% )  (38.47%)
+         1,200,923      branch-misses             #    0.06% of all branches          ( +-  0.45% )  (38.55%)
+    32,104,970,205      L1-dcache-loads           # 6290.386 M/sec                    ( +-  0.06% )  (38.64%)
+        68,388,283      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  0.16% )  (38.65%)
+         3,673,466      LLC-loads                 #    0.720 M/sec                    ( +-  1.13% )  (30.87%)
+            25,666      LLC-load-misses           #    0.70% of all LL-cache hits     ( +- 21.61% )  (30.84%)
+   <not supported>      L1-icache-loads                                             
+           495,418      L1-icache-load-misses                                         ( +-  0.40% )  (30.78%)
+    32,322,016,932      dTLB-loads                # 6332.912 M/sec                    ( +-  0.09% )  (30.72%)
+            20,162      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +- 19.77% )  (30.66%)
+             5,682      iTLB-loads                #    0.001 M/sec                    ( +-  8.44% )  (30.61%)
+               171      iTLB-load-misses          #    3.00% of all iTLB cache hits   ( +- 23.53% )  (30.58%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           2.56466 +- 0.00474 seconds time elapsed  ( +-  0.18% )
+
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 4 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 4' (5 runs):
+
+          5,293.03 msec task-clock                #    3.929 CPUs utilized            ( +-  0.41% )
+                20      context-switches          #    0.004 K/sec                    ( +-  9.62% )
+                 1      cpu-migrations            #    0.000 K/sec                    ( +- 31.18% )
+             3,183      page-faults               #    0.601 K/sec                    ( +-  0.02% )
+    21,118,040,597      cycles                    #    3.990 GHz                      ( +-  0.45% )  (30.51%)
+    63,660,389,158      instructions              #    3.01  insn per cycle           ( +-  0.14% )  (38.35%)
+     2,169,637,487      branches                  #  409.905 M/sec                    ( +-  0.15% )  (38.57%)
+         1,194,963      branch-misses             #    0.06% of all branches          ( +-  0.22% )  (38.75%)
+    31,897,435,727      L1-dcache-loads           # 6026.313 M/sec                    ( +-  0.14% )  (38.87%)
+        67,687,903      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  0.13% )  (38.88%)
+         3,610,501      LLC-loads                 #    0.682 M/sec                    ( +-  0.50% )  (30.92%)
+            15,570      LLC-load-misses           #    0.43% of all LL-cache hits     ( +- 26.10% )  (30.80%)
+   <not supported>      L1-icache-loads                                             
+           511,618      L1-icache-load-misses                                         ( +-  2.57% )  (30.71%)
+    32,397,725,326      dTLB-loads                # 6120.832 M/sec                    ( +-  0.20% )  (30.62%)
+            26,820      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +- 21.83% )  (30.51%)
+             4,119      iTLB-loads                #    0.778 K/sec                    ( +-  6.29% )  (30.45%)
+               191      iTLB-load-misses          #    4.63% of all iTLB cache hits   ( +- 27.25% )  (30.42%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           1.34728 +- 0.00899 seconds time elapsed  ( +-  0.67% )
+
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 8 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 8' (5 runs):
+
+         10,058.90 msec task-clock                #    7.791 CPUs utilized            ( +-  1.33% )
+               780      context-switches          #    0.078 K/sec                    ( +- 78.95% )
+                 3      cpu-migrations            #    0.000 K/sec                    ( +- 49.55% )
+             3,191      page-faults               #    0.317 K/sec                    ( +-  0.01% )
+    40,096,428,311      cycles                    #    3.986 GHz                      ( +-  1.32% )  (30.37%)
+    63,459,058,179      instructions              #    1.58  insn per cycle           ( +-  0.16% )  (38.11%)
+     2,171,655,061      branches                  #  215.894 M/sec                    ( +-  0.09% )  (38.19%)
+         1,280,261      branch-misses             #    0.06% of all branches          ( +-  4.71% )  (38.31%)
+    31,906,129,340      L1-dcache-loads           # 3171.929 M/sec                    ( +-  0.19% )  (38.55%)
+        56,914,213      L1-dcache-load-misses     #    0.18% of all L1-dcache hits    ( +-  4.76% )  (38.75%)
+         3,043,092      LLC-loads                 #    0.303 M/sec                    ( +-  5.66% )  (31.00%)
+            17,178      LLC-load-misses           #    0.56% of all LL-cache hits     ( +- 23.89% )  (30.99%)
+   <not supported>      L1-icache-loads                                             
+           920,285      L1-icache-load-misses                                         ( +- 48.11% )  (30.97%)
+    32,601,848,980      dTLB-loads                # 3241.094 M/sec                    ( +-  0.26% )  (30.89%)
+         1,040,458      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  0.45% )  (30.81%)
+             1,739      iTLB-loads                #    0.173 K/sec                    ( +- 69.31% )  (30.70%)
+               501      iTLB-load-misses          #   28.82% of all iTLB cache hits   ( +- 15.05% )  (30.48%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+            1.2911 +- 0.0234 seconds time elapsed  ( +-  1.82% )
+
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 16 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 16' (5 runs):
+
+          9,724.32 msec task-clock                #    7.621 CPUs utilized            ( +-  0.07% )
+               999      context-switches          #    0.103 K/sec                    ( +- 38.81% )
+                61      cpu-migrations            #    0.006 K/sec                    ( +-  5.61% )
+             3,208      page-faults               #    0.330 K/sec                    ( +-  0.01% )
+    38,758,522,704      cycles                    #    3.986 GHz                      ( +-  0.07% )  (30.19%)
+    63,506,076,331      instructions              #    1.64  insn per cycle           ( +-  0.14% )  (38.16%)
+     2,180,023,031      branches                  #  224.183 M/sec                    ( +-  0.21% )  (38.58%)
+         1,307,794      branch-misses             #    0.06% of all branches          ( +-  2.11% )  (39.04%)
+    32,272,202,966      L1-dcache-loads           # 3318.712 M/sec                    ( +-  0.07% )  (39.44%)
+        69,200,787      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  0.49% )  (39.36%)
+         3,875,159      LLC-loads                 #    0.399 M/sec                    ( +-  0.95% )  (31.16%)
+            22,335      LLC-load-misses           #    0.58% of all LL-cache hits     ( +- 14.24% )  (30.88%)
+   <not supported>      L1-icache-loads                                             
+           942,208      L1-icache-load-misses                                         ( +- 34.90% )  (30.65%)
+    32,289,581,161      dTLB-loads                # 3320.499 M/sec                    ( +-  0.08% )  (30.46%)
+           879,667      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  0.66% )  (30.26%)
+             1,418      iTLB-loads                #    0.146 K/sec                    ( +- 65.34% )  (30.08%)
+               441      iTLB-load-misses          #   31.08% of all iTLB cache hits   ( +- 12.72% )  (29.92%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           1.27600 +- 0.00572 seconds time elapsed  ( +-  0.45% )
+
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 32 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 32' (5 runs):
+
+          9,848.37 msec task-clock                #    7.692 CPUs utilized            ( +-  0.42% )
+             2,028      context-switches          #    0.206 K/sec                    ( +- 18.70% )
+               109      cpu-migrations            #    0.011 K/sec                    ( +-  3.49% )
+             3,242      page-faults               #    0.329 K/sec                    ( +-  0.01% )
+    39,246,419,846      cycles                    #    3.985 GHz                      ( +-  0.42% )  (29.48%)
+    63,610,920,668      instructions              #    1.62  insn per cycle           ( +-  0.07% )  (37.62%)
+     2,181,817,479      branches                  #  221.541 M/sec                    ( +-  0.13% )  (38.39%)
+         1,362,998      branch-misses             #    0.06% of all branches          ( +-  1.80% )  (39.18%)
+    32,243,839,941      L1-dcache-loads           # 3274.029 M/sec                    ( +-  0.07% )  (39.96%)
+        69,966,355      L1-dcache-load-misses     #    0.22% of all L1-dcache hits    ( +-  0.54% )  (40.07%)
+         3,948,469      LLC-loads                 #    0.401 M/sec                    ( +-  4.50% )  (31.55%)
+            32,502      LLC-load-misses           #    0.82% of all LL-cache hits     ( +- 11.58% )  (31.18%)
+   <not supported>      L1-icache-loads                                             
+         1,482,160      L1-icache-load-misses                                         ( +- 31.34% )  (30.81%)
+    32,267,834,038      dTLB-loads                # 3276.465 M/sec                    ( +-  0.08% )  (30.45%)
+           697,818      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  1.58% )  (30.06%)
+             2,046      iTLB-loads                #    0.208 K/sec                    ( +- 42.40% )  (29.64%)
+               557      iTLB-load-misses          #   27.20% of all iTLB cache hits   ( +- 16.02% )  (29.23%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           1.28035 +- 0.00499 seconds time elapsed  ( +-  0.39% )
+
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 64 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 64' (5 runs):
+
+          9,830.29 msec task-clock                #    7.759 CPUs utilized            ( +-  0.21% )
+             2,633      context-switches          #    0.268 K/sec                    ( +-  4.03% )
+               200      cpu-migrations            #    0.020 K/sec                    ( +-  6.72% )
+             3,311      page-faults               #    0.337 K/sec                    ( +-  0.02% )
+    39,166,418,822      cycles                    #    3.984 GHz                      ( +-  0.21% )  (28.74%)
+    63,553,442,500      instructions              #    1.62  insn per cycle           ( +-  0.02% )  (37.31%)
+     2,185,026,582      branches                  #  222.275 M/sec                    ( +-  0.06% )  (38.52%)
+         1,370,456      branch-misses             #    0.06% of all branches          ( +-  1.05% )  (39.58%)
+    32,259,251,252      L1-dcache-loads           # 3281.618 M/sec                    ( +-  0.03% )  (40.58%)
+        66,605,691      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  1.42% )  (41.06%)
+         3,571,852      LLC-loads                 #    0.363 M/sec                    ( +-  3.61% )  (31.69%)
+            27,303      LLC-load-misses           #    0.76% of all LL-cache hits     ( +- 19.19% )  (31.12%)
+   <not supported>      L1-icache-loads                                             
+           896,370      L1-icache-load-misses                                         ( +-  5.49% )  (30.63%)
+    32,280,973,687      dTLB-loads                # 3283.827 M/sec                    ( +-  0.04% )  (30.20%)
+           353,809      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  7.35% )  (29.80%)
+               666      iTLB-loads                #    0.068 K/sec                    ( +- 20.64% )  (29.30%)
+               547      iTLB-load-misses          #   82.16% of all iTLB cache hits   ( +- 16.00% )  (28.79%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           1.26688 +- 0.00349 seconds time elapsed  ( +-  0.28% )
+
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 128 threads
+Matrix multiplication took 0.00 seconds
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 128' (5 runs):
+
+          9,977.54 msec task-clock                #    7.740 CPUs utilized            ( +-  1.13% )
+             3,533      context-switches          #    0.354 K/sec                    ( +- 12.48% )
+               378      cpu-migrations            #    0.038 K/sec                    ( +-  2.17% )
+             3,448      page-faults               #    0.346 K/sec                    ( +-  0.01% )
+    39,747,920,675      cycles                    #    3.984 GHz                      ( +-  1.14% )  (27.53%)
+    63,540,417,435      instructions              #    1.60  insn per cycle           ( +-  0.04% )  (36.57%)
+     2,183,573,330      branches                  #  218.849 M/sec                    ( +-  0.16% )  (39.18%)
+         1,485,773      branch-misses             #    0.07% of all branches          ( +-  3.90% )  (41.37%)
+    32,212,243,282      L1-dcache-loads           # 3228.475 M/sec                    ( +-  0.03% )  (43.10%)
+        67,439,543      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  0.74% )  (43.42%)
+         3,293,145      LLC-loads                 #    0.330 M/sec                    ( +-  8.59% )  (32.59%)
+            53,918      LLC-load-misses           #    1.64% of all LL-cache hits     ( +-  8.47% )  (31.11%)
+   <not supported>      L1-icache-loads                                             
+         1,233,974      L1-icache-load-misses                                         ( +- 19.45% )  (29.96%)
+    32,311,181,774      dTLB-loads                # 3238.391 M/sec                    ( +-  0.03% )  (29.06%)
+           232,934      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  5.49% )  (28.23%)
+               815      iTLB-loads                #    0.082 K/sec                    ( +- 45.02% )  (27.53%)
+               474      iTLB-load-misses          #   58.08% of all iTLB cache hits   ( +- 29.58% )  (26.93%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+            1.2890 +- 0.0137 seconds time elapsed  ( +-  1.07% )
+
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 0.00 seconds
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+Matrix multiplication took 0.00 seconds
+Usage: /home/richwill/mm1_job//mm1-row-nosse.out <size> <threads>
+Matrix multiplication of size 1024 using 256 threads
+
+ Performance counter stats for '/home/richwill/mm1_job//mm1-row-nosse.out 1024 256' (5 runs):
+
+          9,900.03 msec task-clock                #    7.736 CPUs utilized            ( +-  0.37% )
+             3,917      context-switches          #    0.396 K/sec                    ( +-  2.26% )
+               663      cpu-migrations            #    0.067 K/sec                    ( +-  3.41% )
+             3,723      page-faults               #    0.376 K/sec                    ( +-  0.01% )
+    39,457,449,612      cycles                    #    3.986 GHz                      ( +-  0.38% )  (27.55%)
+    63,460,796,473      instructions              #    1.61  insn per cycle           ( +-  0.04% )  (35.48%)
+     2,179,440,533      branches                  #  220.145 M/sec                    ( +-  0.07% )  (37.66%)
+         1,560,479      branch-misses             #    0.07% of all branches          ( +-  0.82% )  (39.71%)
+    32,203,280,992      L1-dcache-loads           # 3252.845 M/sec                    ( +-  0.03% )  (41.25%)
+        67,827,633      L1-dcache-load-misses     #    0.21% of all L1-dcache hits    ( +-  1.95% )  (42.43%)
+         2,978,307      LLC-loads                 #    0.301 M/sec                    ( +-  8.06% )  (33.02%)
+            73,425      LLC-load-misses           #    2.47% of all LL-cache hits     ( +-  4.06% )  (31.62%)
+   <not supported>      L1-icache-loads                                             
+           948,350      L1-icache-load-misses                                         ( +-  2.16% )  (30.72%)
+    32,337,387,356      dTLB-loads                # 3266.391 M/sec                    ( +-  0.03% )  (30.02%)
+           144,218      dTLB-load-misses          #    0.00% of all dTLB cache hits   ( +-  8.10% )  (29.31%)
+               570      iTLB-loads                #    0.058 K/sec                    ( +- 14.89% )  (28.67%)
+               495      iTLB-load-misses          #   86.78% of all iTLB cache hits   ( +- 10.23% )  (28.04%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+           1.27979 +- 0.00469 seconds time elapsed  ( +-  0.37% )
+

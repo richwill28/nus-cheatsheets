@@ -1,0 +1,5 @@
+Rows:8
+Cols:8
+Number of Obstacles:5
+Position of Obstacles (space between):a1 b3 d5 e7 h4
+Number of King, Queen, Bishop, Rook, Knight, Ferz, Princess, Empress (space between):2 3 1 2 2 1 1 1
